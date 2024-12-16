@@ -1,0 +1,27 @@
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+
+# generated contract types
+.history
+.DS_Store
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+.env.staging
+.env.development.local
+.env.production.local
+.env.test.local
+.env.staging.local
+
+# node_modules
+node_modules
+
+# build
+build
+
+# dist
+dist
+
+# .next
+.next
