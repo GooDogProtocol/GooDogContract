@@ -1,0 +1,267 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "$StorageSlot",
+  "sourceName": "contracts-exposed/utils/StorageSlot.sol",
+  "abi": [
+    {
+      "inputs": [],
+      "stateMutability": "payable",
+      "type": "constructor"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "bytes32",
+          "name": "slot",
+          "type": "bytes32"
+        }
+      ],
+      "name": "$getAddressSlot",
+      "outputs": [
+        {
+          "components": [
+            {
+              "internalType": "address",
+              "name": "value",
+              "type": "address"
+            }
+          ],
+          "internalType": "struct StorageSlot.AddressSlot",
+          "name": "r",
+          "type": "tuple"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "bytes32",
+          "name": "slot",
+          "type": "bytes32"
+        }
+      ],
+      "name": "$getBooleanSlot",
+      "outputs": [
+        {
+          "components": [
+            {
+              "internalType": "bool",
+              "name": "value",
+              "type": "bool"
+            }
+          ],
+          "internalType": "struct StorageSlot.BooleanSlot",
+          "name": "r",
+          "type": "tuple"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "bytes32",
+          "name": "slot",
+          "type": "bytes32"
+        }
+      ],
+      "name": "$getBytes32Slot",
+      "outputs": [
+        {
+          "components": [
+            {
+              "internalType": "bytes32",
+              "name": "value",
+              "type": "bytes32"
+            }
+          ],
+          "internalType": "struct StorageSlot.Bytes32Slot",
+          "name": "r",
+          "type": "tuple"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "bytes32",
+          "name": "slot",
+          "type": "bytes32"
+        }
+      ],
+      "name": "$getBytesSlot",
+      "outputs": [
+        {
+          "components": [
+            {
+              "internalType": "bytes",
+              "name": "value",
+              "type": "bytes"
+            }
+          ],
+          "internalType": "struct StorageSlot.BytesSlot",
+          "name": "r",
+          "type": "tuple"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "store",
+          "type": "uint256"
+        }
+      ],
+      "name": "$getBytesSlot",
+      "outputs": [
+        {
+          "components": [
+            {
+              "internalType": "bytes",
+              "name": "value",
+              "type": "bytes"
+            }
+          ],
+          "internalType": "struct StorageSlot.BytesSlot",
+          "name": "r",
+          "type": "tuple"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "bytes32",
+          "name": "slot",
+          "type": "bytes32"
+        }
+      ],
+      "name": "$getInt256Slot",
+      "outputs": [
+        {
+          "components": [
+            {
+              "internalType": "int256",
+              "name": "value",
+              "type": "int256"
+            }
+          ],
+          "internalType": "struct StorageSlot.Int256Slot",
+          "name": "r",
+          "type": "tuple"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "store",
+          "type": "uint256"
+        }
+      ],
+      "name": "$getStringSlot",
+      "outputs": [
+        {
+          "components": [
+            {
+              "internalType": "string",
+              "name": "value",
+              "type": "string"
+            }
+          ],
+          "internalType": "struct StorageSlot.StringSlot",
+          "name": "r",
+          "type": "tuple"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "bytes32",
+          "name": "slot",
+          "type": "bytes32"
+        }
+      ],
+      "name": "$getStringSlot",
+      "outputs": [
+        {
+          "components": [
+            {
+              "internalType": "string",
+              "name": "value",
+              "type": "string"
+            }
+          ],
+          "internalType": "struct StorageSlot.StringSlot",
+          "name": "r",
+          "type": "tuple"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "bytes32",
+          "name": "slot",
+          "type": "bytes32"
+        }
+      ],
+      "name": "$getUint256Slot",
+      "outputs": [
+        {
+          "components": [
+            {
+              "internalType": "uint256",
+              "name": "value",
+              "type": "uint256"
+            }
+          ],
+          "internalType": "struct StorageSlot.Uint256Slot",
+          "name": "r",
+          "type": "tuple"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "__hh_exposed_bytecode_marker",
+      "outputs": [
+        {
+          "internalType": "bytes32",
+          "name": "",
+          "type": "bytes32"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "stateMutability": "payable",
+      "type": "receive"
+    }
+  ],
+  "bytecode": "0x6080604052610446806100115f395ff3fe608060405260043610610092575f3560e01c80637b5d4e20116100575780637b5d4e20146101a757806384bb4cc41461012e578063d8cd5221146101c6578063f5a6439d1461015c578063ff59feda146101e5575f80fd5b80632ccb03621461009d578063342db739146100fb5780634c2b48f51461012e5780636064f5bb1461015c578063718de66c14610188575f80fd5b3661009957005b5f80fd5b3480156100a8575f80fd5b506100de6100b736600461035c565b60408051602080820183525f909152815190810190915290546001600160a01b0316815290565b60405190516001600160a01b031681526020015b60405180910390f35b348015610106575f80fd5b506101206e1a185c991a185d0b595e1c1bdcd959608a1b81565b6040519081526020016100f2565b348015610139575f80fd5b5061014d61014836600461035c565b610233565b604051905181526020016100f2565b348015610167575f80fd5b5061017b61017636600461035c565b610255565b6040516100f291906103b6565b348015610193575f80fd5b5061017b6101a236600461035c565b610307565b3480156101b2575f80fd5b5061017b6101c136600461035c565b610328565b3480156101d1575f80fd5b5061014d6101e036600461035c565b610349565b3480156101f0575f80fd5b506102226101ff36600461035c565b60408051602080820183525f9091528151908101909152905460ff161515815290565b6040519051151581526020016100f2565b60408051602081019091525f81525b5060408051602081019091529054815290565b604080516020810190915260608152815b6040518060200160405290815f82018054610280906103d8565b80601f01602080910402602001604051908101604052809291908181526020018280546102ac906103d8565b80156102f75780601f106102ce576101008083540402835291602001916102f7565b820191905f5260205f20905b8154815290600101906020018083116102da57829003601f168201915b5050505050815250509050919050565b6040805160208101909152606081525f828152600160205260409020610266565b6040805160208101909152606081525f828152602081905260409020610266565b60408051602081019091525f8152610242565b5f6020828403121561036c575f80fd5b5035919050565b5f81518084525f5b818110156103975760208185018101518683018201520161037b565b505f602082860101526020601f19601f83011685010191505092915050565b602081525f82516020808401526103d06040840182610373565b949350505050565b600181811c908216806103ec57607f821691505b60208210810361040a57634e487b7160e01b5f52602260045260245ffd5b5091905056fea2646970667358221220231ee515431b69afb414ae25380a9a97f9e6a40be02c2c9bee0fb14c735df8bc64736f6c63430008180033",
+  "deployedBytecode": "0x608060405260043610610092575f3560e01c80637b5d4e20116100575780637b5d4e20146101a757806384bb4cc41461012e578063d8cd5221146101c6578063f5a6439d1461015c578063ff59feda146101e5575f80fd5b80632ccb03621461009d578063342db739146100fb5780634c2b48f51461012e5780636064f5bb1461015c578063718de66c14610188575f80fd5b3661009957005b5f80fd5b3480156100a8575f80fd5b506100de6100b736600461035c565b60408051602080820183525f909152815190810190915290546001600160a01b0316815290565b60405190516001600160a01b031681526020015b60405180910390f35b348015610106575f80fd5b506101206e1a185c991a185d0b595e1c1bdcd959608a1b81565b6040519081526020016100f2565b348015610139575f80fd5b5061014d61014836600461035c565b610233565b604051905181526020016100f2565b348015610167575f80fd5b5061017b61017636600461035c565b610255565b6040516100f291906103b6565b348015610193575f80fd5b5061017b6101a236600461035c565b610307565b3480156101b2575f80fd5b5061017b6101c136600461035c565b610328565b3480156101d1575f80fd5b5061014d6101e036600461035c565b610349565b3480156101f0575f80fd5b506102226101ff36600461035c565b60408051602080820183525f9091528151908101909152905460ff161515815290565b6040519051151581526020016100f2565b60408051602081019091525f81525b5060408051602081019091529054815290565b604080516020810190915260608152815b6040518060200160405290815f82018054610280906103d8565b80601f01602080910402602001604051908101604052809291908181526020018280546102ac906103d8565b80156102f75780601f106102ce576101008083540402835291602001916102f7565b820191905f5260205f20905b8154815290600101906020018083116102da57829003601f168201915b5050505050815250509050919050565b6040805160208101909152606081525f828152600160205260409020610266565b6040805160208101909152606081525f828152602081905260409020610266565b60408051602081019091525f8152610242565b5f6020828403121561036c575f80fd5b5035919050565b5f81518084525f5b818110156103975760208185018101518683018201520161037b565b505f602082860101526020601f19601f83011685010191505092915050565b602081525f82516020808401526103d06040840182610373565b949350505050565b600181811c908216806103ec57607f821691505b60208210810361040a57634e487b7160e01b5f52602260045260245ffd5b5091905056fea2646970667358221220231ee515431b69afb414ae25380a9a97f9e6a40be02c2c9bee0fb14c735df8bc64736f6c63430008180033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

@@ -1,0 +1,313 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "$TransientSlot",
+  "sourceName": "contracts-exposed/utils/TransientSlot.sol",
+  "abi": [
+    {
+      "inputs": [],
+      "stateMutability": "payable",
+      "type": "constructor"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "bytes32",
+          "name": "slot",
+          "type": "bytes32"
+        }
+      ],
+      "name": "$asAddress",
+      "outputs": [
+        {
+          "internalType": "TransientSlot.AddressSlot",
+          "name": "ret0",
+          "type": "bytes32"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "bytes32",
+          "name": "slot",
+          "type": "bytes32"
+        }
+      ],
+      "name": "$asBoolean",
+      "outputs": [
+        {
+          "internalType": "TransientSlot.BooleanSlot",
+          "name": "ret0",
+          "type": "bytes32"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "bytes32",
+          "name": "slot",
+          "type": "bytes32"
+        }
+      ],
+      "name": "$asBytes32",
+      "outputs": [
+        {
+          "internalType": "TransientSlot.Bytes32Slot",
+          "name": "ret0",
+          "type": "bytes32"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "bytes32",
+          "name": "slot",
+          "type": "bytes32"
+        }
+      ],
+      "name": "$asInt256",
+      "outputs": [
+        {
+          "internalType": "TransientSlot.Int256Slot",
+          "name": "ret0",
+          "type": "bytes32"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "bytes32",
+          "name": "slot",
+          "type": "bytes32"
+        }
+      ],
+      "name": "$asUint256",
+      "outputs": [
+        {
+          "internalType": "TransientSlot.Uint256Slot",
+          "name": "ret0",
+          "type": "bytes32"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "TransientSlot.AddressSlot",
+          "name": "slot",
+          "type": "bytes32"
+        }
+      ],
+      "name": "$tload_TransientSlot_AddressSlot",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "value",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "TransientSlot.BooleanSlot",
+          "name": "slot",
+          "type": "bytes32"
+        }
+      ],
+      "name": "$tload_TransientSlot_BooleanSlot",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "value",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "TransientSlot.Bytes32Slot",
+          "name": "slot",
+          "type": "bytes32"
+        }
+      ],
+      "name": "$tload_TransientSlot_Bytes32Slot",
+      "outputs": [
+        {
+          "internalType": "bytes32",
+          "name": "value",
+          "type": "bytes32"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "TransientSlot.Int256Slot",
+          "name": "slot",
+          "type": "bytes32"
+        }
+      ],
+      "name": "$tload_TransientSlot_Int256Slot",
+      "outputs": [
+        {
+          "internalType": "int256",
+          "name": "value",
+          "type": "int256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "TransientSlot.Uint256Slot",
+          "name": "slot",
+          "type": "bytes32"
+        }
+      ],
+      "name": "$tload_TransientSlot_Uint256Slot",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "value",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "TransientSlot.AddressSlot",
+          "name": "slot",
+          "type": "bytes32"
+        },
+        {
+          "internalType": "address",
+          "name": "value",
+          "type": "address"
+        }
+      ],
+      "name": "$tstore",
+      "outputs": [],
+      "stateMutability": "payable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "TransientSlot.BooleanSlot",
+          "name": "slot",
+          "type": "bytes32"
+        },
+        {
+          "internalType": "bool",
+          "name": "value",
+          "type": "bool"
+        }
+      ],
+      "name": "$tstore",
+      "outputs": [],
+      "stateMutability": "payable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "TransientSlot.Uint256Slot",
+          "name": "slot",
+          "type": "bytes32"
+        },
+        {
+          "internalType": "uint256",
+          "name": "value",
+          "type": "uint256"
+        }
+      ],
+      "name": "$tstore",
+      "outputs": [],
+      "stateMutability": "payable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "TransientSlot.Int256Slot",
+          "name": "slot",
+          "type": "bytes32"
+        },
+        {
+          "internalType": "int256",
+          "name": "value",
+          "type": "int256"
+        }
+      ],
+      "name": "$tstore",
+      "outputs": [],
+      "stateMutability": "payable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "TransientSlot.Bytes32Slot",
+          "name": "slot",
+          "type": "bytes32"
+        },
+        {
+          "internalType": "bytes32",
+          "name": "value",
+          "type": "bytes32"
+        }
+      ],
+      "name": "$tstore",
+      "outputs": [],
+      "stateMutability": "payable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "__hh_exposed_bytecode_marker",
+      "outputs": [
+        {
+          "internalType": "bytes32",
+          "name": "",
+          "type": "bytes32"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "stateMutability": "payable",
+      "type": "receive"
+    }
+  ],
+  "bytecode": "0x60806040526102f3806100115f395ff3fe6080604052600436106100f2575f3560e01c80639e345e6611610087578063d3b0db8011610057578063d3b0db80146101a1578063f359abd714610179578063fd303a8e14610179578063fdaac19d146101ce575f80fd5b80639e345e66146101a1578063af2b5673146101c0578063be2e6388146101a1578063d28fa234146101c0575f80fd5b806356ef44da116100c257806356ef44da146101935780636ab7957e146101a157806376679869146101a1578063819e717e146101c0575f80fd5b80631f47c161146100fd57806330fc130d14610131578063342db739146101465780633cbea43214610179575f80fd5b366100f957005b5f80fd5b348015610108575f80fd5b5061011c610117366004610226565b610200565b60405190151581526020015b60405180910390f35b61014461013f36600461023d565b61020a565b005b348015610151575f80fd5b5061016b6e1a185c991a185d0b595e1c1bdcd959608a1b81565b604051908152602001610128565b348015610184575f80fd5b5061016b610117366004610226565b61014461013f366004610276565b3480156101ac575f80fd5b5061016b6101bb366004610226565b610218565b61014461013f36600461029d565b3480156101d9575f80fd5b506101e8610117366004610226565b6040516001600160a01b039091168152602001610128565b5f815c5b92915050565b610214828261021f565b5050565b5f81610204565b80825d5050565b5f60208284031215610236575f80fd5b5035919050565b5f806040838503121561024e575f80fd5b8235915060208301356001600160a01b038116811461026b575f80fd5b809150509250929050565b5f8060408385031215610287575f80fd5b823591506020830135801515811461026b575f80fd5b5f80604083850312156102ae575f80fd5b5050803592602090910135915056fea26469706673582212207891e19647ece6ee5dd5a3ec0c31ffbea77a95f896c53746cda6ff85c6a939ca64736f6c63430008180033",
+  "deployedBytecode": "0x6080604052600436106100f2575f3560e01c80639e345e6611610087578063d3b0db8011610057578063d3b0db80146101a1578063f359abd714610179578063fd303a8e14610179578063fdaac19d146101ce575f80fd5b80639e345e66146101a1578063af2b5673146101c0578063be2e6388146101a1578063d28fa234146101c0575f80fd5b806356ef44da116100c257806356ef44da146101935780636ab7957e146101a157806376679869146101a1578063819e717e146101c0575f80fd5b80631f47c161146100fd57806330fc130d14610131578063342db739146101465780633cbea43214610179575f80fd5b366100f957005b5f80fd5b348015610108575f80fd5b5061011c610117366004610226565b610200565b60405190151581526020015b60405180910390f35b61014461013f36600461023d565b61020a565b005b348015610151575f80fd5b5061016b6e1a185c991a185d0b595e1c1bdcd959608a1b81565b604051908152602001610128565b348015610184575f80fd5b5061016b610117366004610226565b61014461013f366004610276565b3480156101ac575f80fd5b5061016b6101bb366004610226565b610218565b61014461013f36600461029d565b3480156101d9575f80fd5b506101e8610117366004610226565b6040516001600160a01b039091168152602001610128565b5f815c5b92915050565b610214828261021f565b5050565b5f81610204565b80825d5050565b5f60208284031215610236575f80fd5b5035919050565b5f806040838503121561024e575f80fd5b8235915060208301356001600160a01b038116811461026b575f80fd5b809150509250929050565b5f8060408385031215610287575f80fd5b823591506020830135801515811461026b575f80fd5b5f80604083850312156102ae575f80fd5b5050803592602090910135915056fea26469706673582212207891e19647ece6ee5dd5a3ec0c31ffbea77a95f896c53746cda6ff85c6a939ca64736f6c63430008180033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

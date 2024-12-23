@@ -1,0 +1,176 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "$Panic",
+  "sourceName": "contracts-exposed/utils/Panic.sol",
+  "abi": [
+    {
+      "inputs": [],
+      "stateMutability": "payable",
+      "type": "constructor"
+    },
+    {
+      "inputs": [],
+      "name": "$ARRAY_OUT_OF_BOUNDS",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "$ASSERT",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "$DIVISION_BY_ZERO",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "$EMPTY_ARRAY_POP",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "$ENUM_CONVERSION_ERROR",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "$GENERIC",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "$INVALID_INTERNAL_FUNCTION",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "$RESOURCE_ERROR",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "$STORAGE_ENCODING_ERROR",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "$UNDER_OVERFLOW",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "code",
+          "type": "uint256"
+        }
+      ],
+      "name": "$panic",
+      "outputs": [],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "__hh_exposed_bytecode_marker",
+      "outputs": [
+        {
+          "internalType": "bytes32",
+          "name": "",
+          "type": "bytes32"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "stateMutability": "payable",
+      "type": "receive"
+    }
+  ],
+  "bytecode": "0x608060405261022e806100115f395ff3fe6080604052600436106100a8575f3560e01c80636c46478b116100625780636c46478b1461014557806381fe26c81461015757806394b818001461016a578063b66474221461018b578063bd4b8a591461019e578063c38c265b146101b1575f80fd5b80630f7decb4146100b3578063342db739146100d45780633d9ef2d1146100f95780633ea764611461010c57806344dfe6d31461011f57806355b73ce314610132575f80fd5b366100af57005b5f80fd5b3480156100be575f80fd5b5060415b60405190815260200160405180910390f35b3480156100df575f80fd5b506100c26e1a185c991a185d0b595e1c1bdcd959608a1b81565b348015610104575f80fd5b5060116100c2565b348015610117575f80fd5b5060216100c2565b34801561012a575f80fd5b5060326100c2565b34801561013d575f80fd5b5060516100c2565b348015610150575f80fd5b505f6100c2565b348015610162575f80fd5b5060226100c2565b348015610175575f80fd5b506101896101843660046101e1565b6101c4565b005b348015610196575f80fd5b5060316100c2565b3480156101a9575f80fd5b5060016100c2565b3480156101bc575f80fd5b5060126100c2565b6101cd816101d0565b50565b634e487b715f52806020526024601cfd5b5f602082840312156101f1575f80fd5b503591905056fea2646970667358221220307efb7d66b8041c8ee2da82848ec7fb81b16ce82224099dee26376e024c76eb64736f6c63430008180033",
+  "deployedBytecode": "0x6080604052600436106100a8575f3560e01c80636c46478b116100625780636c46478b1461014557806381fe26c81461015757806394b818001461016a578063b66474221461018b578063bd4b8a591461019e578063c38c265b146101b1575f80fd5b80630f7decb4146100b3578063342db739146100d45780633d9ef2d1146100f95780633ea764611461010c57806344dfe6d31461011f57806355b73ce314610132575f80fd5b366100af57005b5f80fd5b3480156100be575f80fd5b5060415b60405190815260200160405180910390f35b3480156100df575f80fd5b506100c26e1a185c991a185d0b595e1c1bdcd959608a1b81565b348015610104575f80fd5b5060116100c2565b348015610117575f80fd5b5060216100c2565b34801561012a575f80fd5b5060326100c2565b34801561013d575f80fd5b5060516100c2565b348015610150575f80fd5b505f6100c2565b348015610162575f80fd5b5060226100c2565b348015610175575f80fd5b506101896101843660046101e1565b6101c4565b005b348015610196575f80fd5b5060316100c2565b3480156101a9575f80fd5b5060016100c2565b3480156101bc575f80fd5b5060126100c2565b6101cd816101d0565b50565b634e487b715f52806020526024601cfd5b5f602082840312156101f1575f80fd5b503591905056fea2646970667358221220307efb7d66b8041c8ee2da82848ec7fb81b16ce82224099dee26376e024c76eb64736f6c63430008180033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

@@ -1,0 +1,70 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "$ClashingImplementation",
+  "sourceName": "contracts-exposed/mocks/proxy/ClashingImplementation.sol",
+  "abi": [
+    {
+      "inputs": [],
+      "stateMutability": "payable",
+      "type": "constructor"
+    },
+    {
+      "anonymous": false,
+      "inputs": [],
+      "name": "ClashingImplementationCall",
+      "type": "event"
+    },
+    {
+      "inputs": [],
+      "name": "__hh_exposed_bytecode_marker",
+      "outputs": [
+        {
+          "internalType": "bytes32",
+          "name": "",
+          "type": "bytes32"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "delegatedFunction",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        },
+        {
+          "internalType": "bytes",
+          "name": "",
+          "type": "bytes"
+        }
+      ],
+      "name": "upgradeToAndCall",
+      "outputs": [],
+      "stateMutability": "payable",
+      "type": "function"
+    },
+    {
+      "stateMutability": "payable",
+      "type": "receive"
+    }
+  ],
+  "bytecode": "0x6080604052610195806100115f395ff3fe608060405260043610610036575f3560e01c8063342db739146100415780634f1ef28614610079578063abf8e0e71461008e575f80fd5b3661003d57005b5f80fd5b34801561004c575f80fd5b506100666e1a185c991a185d0b595e1c1bdcd959608a1b81565b6040519081526020015b60405180910390f35b61008c6100873660046100d6565b6100a9565b005b348015610099575f80fd5b5060405160018152602001610070565b6040517f87f295955c288a63c1ec9524b11bb3e2b47480139ca4755c7d6e1dacaa8c4b1b905f90a1505050565b5f805f604084860312156100e8575f80fd5b83356001600160a01b03811681146100fe575f80fd5b9250602084013567ffffffffffffffff8082111561011a575f80fd5b818601915086601f83011261012d575f80fd5b81358181111561013b575f80fd5b87602082850101111561014c575f80fd5b602083019450809350505050925092509256fea264697066735822122047bb6ad6850c08d9594f7a4f1a419cee333692918b5fa210268ddce4b15ff1f664736f6c63430008180033",
+  "deployedBytecode": "0x608060405260043610610036575f3560e01c8063342db739146100415780634f1ef28614610079578063abf8e0e71461008e575f80fd5b3661003d57005b5f80fd5b34801561004c575f80fd5b506100666e1a185c991a185d0b595e1c1bdcd959608a1b81565b6040519081526020015b60405180910390f35b61008c6100873660046100d6565b6100a9565b005b348015610099575f80fd5b5060405160018152602001610070565b6040517f87f295955c288a63c1ec9524b11bb3e2b47480139ca4755c7d6e1dacaa8c4b1b905f90a1505050565b5f805f604084860312156100e8575f80fd5b83356001600160a01b03811681146100fe575f80fd5b9250602084013567ffffffffffffffff8082111561011a575f80fd5b818601915086601f83011261012d575f80fd5b81358181111561013b575f80fd5b87602082850101111561014c575f80fd5b602083019450809350505050925092509256fea264697066735822122047bb6ad6850c08d9594f7a4f1a419cee333692918b5fa210268ddce4b15ff1f664736f6c63430008180033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

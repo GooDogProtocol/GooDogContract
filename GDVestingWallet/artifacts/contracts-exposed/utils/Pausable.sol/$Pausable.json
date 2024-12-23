@@ -1,0 +1,149 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "$Pausable",
+  "sourceName": "contracts-exposed/utils/Pausable.sol",
+  "abi": [
+    {
+      "inputs": [],
+      "stateMutability": "payable",
+      "type": "constructor"
+    },
+    {
+      "inputs": [],
+      "name": "EnforcedPause",
+      "type": "error"
+    },
+    {
+      "inputs": [],
+      "name": "ExpectedPause",
+      "type": "error"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "internalType": "address",
+          "name": "account",
+          "type": "address"
+        }
+      ],
+      "name": "Paused",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "internalType": "address",
+          "name": "account",
+          "type": "address"
+        }
+      ],
+      "name": "Unpaused",
+      "type": "event"
+    },
+    {
+      "inputs": [],
+      "name": "$_contextSuffixLength",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "ret0",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "$_msgData",
+      "outputs": [
+        {
+          "internalType": "bytes",
+          "name": "ret0",
+          "type": "bytes"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "$_msgSender",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "ret0",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "$_pause",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "$_requireNotPaused",
+      "outputs": [],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "$_requirePaused",
+      "outputs": [],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "$_unpause",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "__hh_exposed_bytecode_marker",
+      "outputs": [
+        {
+          "internalType": "bytes32",
+          "name": "",
+          "type": "bytes32"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "paused",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "stateMutability": "payable",
+      "type": "receive"
+    }
+  ],
+  "bytecode": "0x60806040525f805460ff1916905561033d8061001a5f395ff3fe608060405260043610610087575f3560e01c80635c975abb116100575780635c975abb1461011b57806367354a841461013c578063838122411461014e578063b0a1fefa14610162578063f85810a714610176575f80fd5b80632904df29146100925780632c85c6e2146100b157806332cadf3c146100c7578063342db739146100e8575f80fd5b3661008e57005b5f80fd5b34801561009d575f80fd5b506040513381526020015b60405180910390f35b3480156100bc575f80fd5b506100c561018a565b005b3480156100d2575f80fd5b506100db610194565b6040516100a891906102bb565b3480156100f3575f80fd5b5061010d6e1a185c991a185d0b595e1c1bdcd959608a1b81565b6040519081526020016100a8565b348015610126575f80fd5b505f5460ff1660405190151581526020016100a8565b348015610147575f80fd5b505f61010d565b348015610159575f80fd5b506100c56101d1565b34801561016d575f80fd5b506100c56101d9565b348015610181575f80fd5b506100c56101e1565b6101926101e9565b565b60605f368080601f0160208091040260200160405190810160405280939291908181526020018383808284375f9201919091525092949350505050565b61019261020c565b61019261022e565b61019261027f565b5f5460ff16156101925760405163d93c066560e01b815260040160405180910390fd5b5f5460ff1661019257604051638dfc202b60e01b815260040160405180910390fd5b61023661020c565b5f805460ff191690557f5db9ee0a495bf2e6ff9c91a7834c1ba4fdd244a5e8aa4e537bd38aeae4b073aa335b6040516001600160a01b03909116815260200160405180910390a1565b6102876101e9565b5f805460ff191660011790557f62e78cea01bee320cd4e420270b5ea74000d11b0c9f74754ebdbfc544b05a2586102623390565b5f602080835283518060208501525f5b818110156102e7578581018301518582016040015282016102cb565b505f604082860101526040601f19601f830116850101925050509291505056fea2646970667358221220a877cb12b6021fa5f4152d1f8febfeddaace062a9475c47fab32666cd5af6cda64736f6c63430008180033",
+  "deployedBytecode": "0x608060405260043610610087575f3560e01c80635c975abb116100575780635c975abb1461011b57806367354a841461013c578063838122411461014e578063b0a1fefa14610162578063f85810a714610176575f80fd5b80632904df29146100925780632c85c6e2146100b157806332cadf3c146100c7578063342db739146100e8575f80fd5b3661008e57005b5f80fd5b34801561009d575f80fd5b506040513381526020015b60405180910390f35b3480156100bc575f80fd5b506100c561018a565b005b3480156100d2575f80fd5b506100db610194565b6040516100a891906102bb565b3480156100f3575f80fd5b5061010d6e1a185c991a185d0b595e1c1bdcd959608a1b81565b6040519081526020016100a8565b348015610126575f80fd5b505f5460ff1660405190151581526020016100a8565b348015610147575f80fd5b505f61010d565b348015610159575f80fd5b506100c56101d1565b34801561016d575f80fd5b506100c56101d9565b348015610181575f80fd5b506100c56101e1565b6101926101e9565b565b60605f368080601f0160208091040260200160405190810160405280939291908181526020018383808284375f9201919091525092949350505050565b61019261020c565b61019261022e565b61019261027f565b5f5460ff16156101925760405163d93c066560e01b815260040160405180910390fd5b5f5460ff1661019257604051638dfc202b60e01b815260040160405180910390fd5b61023661020c565b5f805460ff191690557f5db9ee0a495bf2e6ff9c91a7834c1ba4fdd244a5e8aa4e537bd38aeae4b073aa335b6040516001600160a01b03909116815260200160405180910390a1565b6102876101e9565b5f805460ff191660011790557f62e78cea01bee320cd4e420270b5ea74000d11b0c9f74754ebdbfc544b05a2586102623390565b5f602080835283518060208501525f5b818110156102e7578581018301518582016040015282016102cb565b505f604082860101526040601f19601f830116850101925050509291505056fea2646970667358221220a877cb12b6021fa5f4152d1f8febfeddaace062a9475c47fab32666cd5af6cda64736f6c63430008180033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

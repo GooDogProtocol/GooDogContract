@@ -1,0 +1,52 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "$ERC165MaliciousData",
+  "sourceName": "contracts-exposed/mocks/ERC165/ERC165MaliciousData.sol",
+  "abi": [
+    {
+      "inputs": [],
+      "stateMutability": "payable",
+      "type": "constructor"
+    },
+    {
+      "inputs": [],
+      "name": "__hh_exposed_bytecode_marker",
+      "outputs": [
+        {
+          "internalType": "bytes32",
+          "name": "",
+          "type": "bytes32"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "bytes4",
+          "name": "",
+          "type": "bytes4"
+        }
+      ],
+      "name": "supportsInterface",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "stateMutability": "payable",
+      "type": "receive"
+    }
+  ],
+  "bytecode": "0x608060405260fd806100105f395ff3fe6080604052600436106028575f3560e01c806301ffc9a7146032578063342db739146061575f80fd5b36602e57005b5f80fd5b348015603c575f80fd5b50604c6048366004609b565b6091565b60405190151581526020015b60405180910390f35b348015606b575f80fd5b5060846e1a185c991a185d0b595e1c1bdcd959608a1b81565b6040519081526020016058565b5f80195f5260205ff35b5f6020828403121560aa575f80fd5b81356001600160e01b03198116811460c0575f80fd5b939250505056fea2646970667358221220a8e9cf67a8834806a3b458ce725e2ad901156d6a94d99c42d8a2892becc6452d64736f6c63430008180033",
+  "deployedBytecode": "0x6080604052600436106028575f3560e01c806301ffc9a7146032578063342db739146061575f80fd5b36602e57005b5f80fd5b348015603c575f80fd5b50604c6048366004609b565b6091565b60405190151581526020015b60405180910390f35b348015606b575f80fd5b5060846e1a185c991a185d0b595e1c1bdcd959608a1b81565b6040519081526020016058565b5f80195f5260205ff35b5f6020828403121560aa575f80fd5b81356001600160e01b03198116811460c0575f80fd5b939250505056fea2646970667358221220a8e9cf67a8834806a3b458ce725e2ad901156d6a94d99c42d8a2892becc6452d64736f6c63430008180033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

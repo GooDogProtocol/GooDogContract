@@ -1,0 +1,119 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "PausableMock",
+  "sourceName": "contracts/mocks/PausableMock.sol",
+  "abi": [
+    {
+      "inputs": [],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    },
+    {
+      "inputs": [],
+      "name": "EnforcedPause",
+      "type": "error"
+    },
+    {
+      "inputs": [],
+      "name": "ExpectedPause",
+      "type": "error"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "internalType": "address",
+          "name": "account",
+          "type": "address"
+        }
+      ],
+      "name": "Paused",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "internalType": "address",
+          "name": "account",
+          "type": "address"
+        }
+      ],
+      "name": "Unpaused",
+      "type": "event"
+    },
+    {
+      "inputs": [],
+      "name": "count",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "drasticMeasure",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "drasticMeasureTaken",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "normalProcess",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "pause",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "paused",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "unpause",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x608060405234801561000f575f80fd5b505f805461ffff191681556001556102578061002a5f395ff3fe608060405234801561000f575f80fd5b506004361061007a575f3560e01c806376657b8e1161005857806376657b8e146100ba5780638456cb59146100cb5780639958f045146100d3578063e7651d7a146100db575f80fd5b806306661abd1461007e5780633f4ba83a1461009a5780635c975abb146100a4575b5f80fd5b61008760015481565b6040519081526020015b60405180910390f35b6100a26100e3565b005b5f5460ff165b6040519015158152602001610091565b5f546100aa90610100900460ff1681565b6100a26100ed565b6100a26100f5565b6100a261010d565b6100eb61012b565b565b6100eb61017c565b6100fd6101b8565b5f805461ff001916610100179055565b6101156101da565b60018054905f610124836101fd565b9190505550565b6101336101b8565b5f805460ff191690557f5db9ee0a495bf2e6ff9c91a7834c1ba4fdd244a5e8aa4e537bd38aeae4b073aa335b6040516001600160a01b03909116815260200160405180910390a1565b6101846101da565b5f805460ff191660011790557f62e78cea01bee320cd4e420270b5ea74000d11b0c9f74754ebdbfc544b05a25861015f3390565b5f5460ff166100eb57604051638dfc202b60e01b815260040160405180910390fd5b5f5460ff16156100eb5760405163d93c066560e01b815260040160405180910390fd5b5f6001820161021a57634e487b7160e01b5f52601160045260245ffd5b506001019056fea2646970667358221220abd925a1f3ca906088578feb1ca71e91e7a26672ad287c7fa1867f184fda93eb64736f6c63430008180033",
+  "deployedBytecode": "0x608060405234801561000f575f80fd5b506004361061007a575f3560e01c806376657b8e1161005857806376657b8e146100ba5780638456cb59146100cb5780639958f045146100d3578063e7651d7a146100db575f80fd5b806306661abd1461007e5780633f4ba83a1461009a5780635c975abb146100a4575b5f80fd5b61008760015481565b6040519081526020015b60405180910390f35b6100a26100e3565b005b5f5460ff165b6040519015158152602001610091565b5f546100aa90610100900460ff1681565b6100a26100ed565b6100a26100f5565b6100a261010d565b6100eb61012b565b565b6100eb61017c565b6100fd6101b8565b5f805461ff001916610100179055565b6101156101da565b60018054905f610124836101fd565b9190505550565b6101336101b8565b5f805460ff191690557f5db9ee0a495bf2e6ff9c91a7834c1ba4fdd244a5e8aa4e537bd38aeae4b073aa335b6040516001600160a01b03909116815260200160405180910390a1565b6101846101da565b5f805460ff191660011790557f62e78cea01bee320cd4e420270b5ea74000d11b0c9f74754ebdbfc544b05a25861015f3390565b5f5460ff166100eb57604051638dfc202b60e01b815260040160405180910390fd5b5f5460ff16156100eb5760405163d93c066560e01b815260040160405180910390fd5b5f6001820161021a57634e487b7160e01b5f52601160045260245ffd5b506001019056fea2646970667358221220abd925a1f3ca906088578feb1ca71e91e7a26672ad287c7fa1867f184fda93eb64736f6c63430008180033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

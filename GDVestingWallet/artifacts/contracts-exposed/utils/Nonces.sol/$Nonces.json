@@ -1,0 +1,118 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "$Nonces",
+  "sourceName": "contracts-exposed/utils/Nonces.sol",
+  "abi": [
+    {
+      "inputs": [],
+      "stateMutability": "payable",
+      "type": "constructor"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "account",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "currentNonce",
+          "type": "uint256"
+        }
+      ],
+      "name": "InvalidAccountNonce",
+      "type": "error"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "ret0",
+          "type": "uint256"
+        }
+      ],
+      "name": "return$_useNonce",
+      "type": "event"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "owner",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "nonce",
+          "type": "uint256"
+        }
+      ],
+      "name": "$_useCheckedNonce",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "owner",
+          "type": "address"
+        }
+      ],
+      "name": "$_useNonce",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "ret0",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "__hh_exposed_bytecode_marker",
+      "outputs": [
+        {
+          "internalType": "bytes32",
+          "name": "",
+          "type": "bytes32"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "owner",
+          "type": "address"
+        }
+      ],
+      "name": "nonces",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "stateMutability": "payable",
+      "type": "receive"
+    }
+  ],
+  "bytecode": "0x6080604052610250806100115f395ff3fe608060405260043610610041575f3560e01c80632e8fbee51461004c578063342db7391461007d5780636b4ac502146100a25780637ecebe00146100c3575f80fd5b3661004857005b5f80fd5b348015610057575f80fd5b5061006b6100663660046101d2565b6100f7565b60405190815260200160405180910390f35b348015610088575f80fd5b5061006b6e1a185c991a185d0b595e1c1bdcd959608a1b81565b3480156100ad575f80fd5b506100c16100bc3660046101f2565b61014e565b005b3480156100ce575f80fd5b5061006b6100dd3660046101d2565b6001600160a01b03165f9081526020819052604090205490565b6001600160a01b0381165f908152602081815260409182902080546001810190915591518281527f8d5c13b1cd528a3e1895fdc833368c4e3af5391250c736a28e94c4fa59b3cee4910160405180910390a1919050565b610158828261015c565b5050565b6001600160a01b0382165f9081526020819052604090208054600181019091558181146101b2576040516301d4b62360e61b81526001600160a01b03841660048201526024810182905260440160405180910390fd5b505050565b80356001600160a01b03811681146101cd575f80fd5b919050565b5f602082840312156101e2575f80fd5b6101eb826101b7565b9392505050565b5f8060408385031215610203575f80fd5b61020c836101b7565b94602093909301359350505056fea2646970667358221220cf57acf29500b3f15d0fce87ad526bc2cb381c43149671ccfec424dfecac2bfe64736f6c63430008180033",
+  "deployedBytecode": "0x608060405260043610610041575f3560e01c80632e8fbee51461004c578063342db7391461007d5780636b4ac502146100a25780637ecebe00146100c3575f80fd5b3661004857005b5f80fd5b348015610057575f80fd5b5061006b6100663660046101d2565b6100f7565b60405190815260200160405180910390f35b348015610088575f80fd5b5061006b6e1a185c991a185d0b595e1c1bdcd959608a1b81565b3480156100ad575f80fd5b506100c16100bc3660046101f2565b61014e565b005b3480156100ce575f80fd5b5061006b6100dd3660046101d2565b6001600160a01b03165f9081526020819052604090205490565b6001600160a01b0381165f908152602081815260409182902080546001810190915591518281527f8d5c13b1cd528a3e1895fdc833368c4e3af5391250c736a28e94c4fa59b3cee4910160405180910390a1919050565b610158828261015c565b5050565b6001600160a01b0382165f9081526020819052604090208054600181019091558181146101b2576040516301d4b62360e61b81526001600160a01b03841660048201526024810182905260440160405180910390fd5b505050565b80356001600160a01b03811681146101cd575f80fd5b919050565b5f602082840312156101e2575f80fd5b6101eb826101b7565b9392505050565b5f8060408385031215610203575f80fd5b61020c836101b7565b94602093909301359350505056fea2646970667358221220cf57acf29500b3f15d0fce87ad526bc2cb381c43149671ccfec424dfecac2bfe64736f6c63430008180033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

@@ -1,0 +1,46 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "$EtherReceiverMock",
+  "sourceName": "contracts-exposed/mocks/EtherReceiverMock.sol",
+  "abi": [
+    {
+      "inputs": [],
+      "stateMutability": "payable",
+      "type": "constructor"
+    },
+    {
+      "inputs": [],
+      "name": "__hh_exposed_bytecode_marker",
+      "outputs": [
+        {
+          "internalType": "bytes32",
+          "name": "",
+          "type": "bytes32"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "bool",
+          "name": "acceptEther",
+          "type": "bool"
+        }
+      ],
+      "name": "setAcceptEther",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "stateMutability": "payable",
+      "type": "receive"
+    }
+  ],
+  "bytecode": "0x608060405260f5806100105f395ff3fe6080604052600436106028575f3560e01c8063342db73914603e5780634fea120c146073575f80fd5b36603a575f5460ff166038575f80fd5b005b5f80fd5b3480156048575f80fd5b5060616e1a185c991a185d0b595e1c1bdcd959608a1b81565b60405190815260200160405180910390f35b348015607d575f80fd5b5060386089366004609b565b5f805460ff1916911515919091179055565b5f6020828403121560aa575f80fd5b8135801515811460b8575f80fd5b939250505056fea2646970667358221220bedc119ba9279075246ccd5f8c6d30dfef8b6b28f81d33d382c292c55929a77e64736f6c63430008180033",
+  "deployedBytecode": "0x6080604052600436106028575f3560e01c8063342db73914603e5780634fea120c146073575f80fd5b36603a575f5460ff166038575f80fd5b005b5f80fd5b3480156048575f80fd5b5060616e1a185c991a185d0b595e1c1bdcd959608a1b81565b60405190815260200160405180910390f35b348015607d575f80fd5b5060386089366004609b565b5f805460ff1916911515919091179055565b5f6020828403121560aa575f80fd5b8135801515811460b8575f80fd5b939250505056fea2646970667358221220bedc119ba9279075246ccd5f8c6d30dfef8b6b28f81d33d382c292c55929a77e64736f6c63430008180033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

@@ -1,0 +1,234 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "$Time",
+  "sourceName": "contracts-exposed/utils/types/Time.sol",
+  "abi": [
+    {
+      "inputs": [],
+      "stateMutability": "payable",
+      "type": "constructor"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint8",
+          "name": "bits",
+          "type": "uint8"
+        },
+        {
+          "internalType": "uint256",
+          "name": "value",
+          "type": "uint256"
+        }
+      ],
+      "name": "SafeCastOverflowedUintDowncast",
+      "type": "error"
+    },
+    {
+      "inputs": [],
+      "name": "$blockNumber",
+      "outputs": [
+        {
+          "internalType": "uint48",
+          "name": "ret0",
+          "type": "uint48"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "Time.Delay",
+          "name": "self",
+          "type": "uint112"
+        }
+      ],
+      "name": "$get",
+      "outputs": [
+        {
+          "internalType": "uint32",
+          "name": "ret0",
+          "type": "uint32"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "Time.Delay",
+          "name": "self",
+          "type": "uint112"
+        }
+      ],
+      "name": "$getFull",
+      "outputs": [
+        {
+          "internalType": "uint32",
+          "name": "valueBefore",
+          "type": "uint32"
+        },
+        {
+          "internalType": "uint32",
+          "name": "valueAfter",
+          "type": "uint32"
+        },
+        {
+          "internalType": "uint48",
+          "name": "effect",
+          "type": "uint48"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint32",
+          "name": "valueBefore",
+          "type": "uint32"
+        },
+        {
+          "internalType": "uint32",
+          "name": "valueAfter",
+          "type": "uint32"
+        },
+        {
+          "internalType": "uint48",
+          "name": "effect",
+          "type": "uint48"
+        }
+      ],
+      "name": "$pack",
+      "outputs": [
+        {
+          "internalType": "Time.Delay",
+          "name": "ret0",
+          "type": "uint112"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "$timestamp",
+      "outputs": [
+        {
+          "internalType": "uint48",
+          "name": "ret0",
+          "type": "uint48"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint32",
+          "name": "duration",
+          "type": "uint32"
+        }
+      ],
+      "name": "$toDelay",
+      "outputs": [
+        {
+          "internalType": "Time.Delay",
+          "name": "ret0",
+          "type": "uint112"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "Time.Delay",
+          "name": "self",
+          "type": "uint112"
+        }
+      ],
+      "name": "$unpack",
+      "outputs": [
+        {
+          "internalType": "uint32",
+          "name": "valueBefore",
+          "type": "uint32"
+        },
+        {
+          "internalType": "uint32",
+          "name": "valueAfter",
+          "type": "uint32"
+        },
+        {
+          "internalType": "uint48",
+          "name": "effect",
+          "type": "uint48"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "Time.Delay",
+          "name": "self",
+          "type": "uint112"
+        },
+        {
+          "internalType": "uint32",
+          "name": "newValue",
+          "type": "uint32"
+        },
+        {
+          "internalType": "uint32",
+          "name": "minSetback",
+          "type": "uint32"
+        }
+      ],
+      "name": "$withUpdate",
+      "outputs": [
+        {
+          "internalType": "Time.Delay",
+          "name": "updatedDelay",
+          "type": "uint112"
+        },
+        {
+          "internalType": "uint48",
+          "name": "effect",
+          "type": "uint48"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "__hh_exposed_bytecode_marker",
+      "outputs": [
+        {
+          "internalType": "bytes32",
+          "name": "",
+          "type": "bytes32"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "stateMutability": "payable",
+      "type": "receive"
+    }
+  ],
+  "bytecode": "0x60806040526105fd806100115f395ff3fe608060405260043610610087575f3560e01c80636295a5f9116100575780636295a5f9146101a2578063974cb897146101c15780639b865f4f146101d5578063f1c2ab5114610209578063f4b3087f1461024e575f80fd5b806307e39aa714610092578063342db739146100e1578063374fb4301461011457806340b598ab1461013f575f80fd5b3661008e57005b5f80fd5b34801561009d575f80fd5b506100b16100ac36600461049d565b61026d565b6040805163ffffffff948516815293909216602084015265ffffffffffff16908201526060015b60405180910390f35b3480156100ec575f80fd5b506101066e1a185c991a185d0b595e1c1bdcd959608a1b81565b6040519081526020016100d8565b34801561011f575f80fd5b5061012861029d565b60405165ffffffffffff90911681526020016100d8565b34801561014a575f80fd5b5061018a6101593660046104c9565b5f63ffffffff8316602085901b67ffffffff0000000016604084901b65ffffffffffff60401b161717949350505050565b6040516001600160701b0390911681526020016100d8565b3480156101ad575f80fd5b506100b16101bc36600461049d565b6102ab565b3480156101cc575f80fd5b506101286102b7565b3480156101e0575f80fd5b506101f46101ef36600461049d565b6102c0565b60405163ffffffff90911681526020016100d8565b348015610214575f80fd5b50610228610223366004610517565b6102d0565b604080516001600160701b03909316835265ffffffffffff9091166020830152016100d8565b348015610259575f80fd5b5061018a610268366004610557565b6102e9565b5f808069ffffffffffffffffffff602085901c168465ffffffffffff604082901c165b9196909550909350915050565b5f6102a66102f6565b905090565b5f805f61029084610300565b5f6102a6610321565b5f6102ca8261032b565b92915050565b5f806102dd858585610349565b90969095509350505050565b5f63ffffffff82166102ca565b5f6102a6436103ea565b5f805f6103148461030f610321565b610424565b9250925092509193909250565b5f6102a6426103ea565b5f8061033f836001600160701b0316610300565b5090949350505050565b5f805f61035e866001600160701b031661032b565b90505f6103998563ffffffff168763ffffffff168463ffffffff1611610384575f61038e565b61038e8885610584565b63ffffffff16610470565b90508063ffffffff166103aa610321565b6103b491906105a8565b925063ffffffff8616602083901b67ffffffff0000000016604085901b65ffffffffffff60401b16171793505050935093915050565b5f65ffffffffffff821115610420576040516306dfcc6560e41b8152603060048201526024810183905260440160405180910390fd5b5090565b69ffffffffffffffffffff602083901c166001600160701b03831665ffffffffffff604085901c811690841681111561045f57828282610463565b815f805b9250925092509250925092565b5f8282188284110282185b9392505050565b80356001600160701b0381168114610498575f80fd5b919050565b5f602082840312156104ad575f80fd5b61047b82610482565b803563ffffffff81168114610498575f80fd5b5f805f606084860312156104db575f80fd5b6104e4846104b6565b92506104f2602085016104b6565b9150604084013565ffffffffffff8116811461050c575f80fd5b809150509250925092565b5f805f60608486031215610529575f80fd5b61053284610482565b9250610540602085016104b6565b915061054e604085016104b6565b90509250925092565b5f60208284031215610567575f80fd5b61047b826104b6565b634e487b7160e01b5f52601160045260245ffd5b63ffffffff8281168282160390808211156105a1576105a1610570565b5092915050565b65ffffffffffff8181168382160190808211156105a1576105a161057056fea2646970667358221220b42525d039c3933bcfebae6a8375163c56038882c9097cc941ed9a61ff0255ad64736f6c63430008180033",
+  "deployedBytecode": "0x608060405260043610610087575f3560e01c80636295a5f9116100575780636295a5f9146101a2578063974cb897146101c15780639b865f4f146101d5578063f1c2ab5114610209578063f4b3087f1461024e575f80fd5b806307e39aa714610092578063342db739146100e1578063374fb4301461011457806340b598ab1461013f575f80fd5b3661008e57005b5f80fd5b34801561009d575f80fd5b506100b16100ac36600461049d565b61026d565b6040805163ffffffff948516815293909216602084015265ffffffffffff16908201526060015b60405180910390f35b3480156100ec575f80fd5b506101066e1a185c991a185d0b595e1c1bdcd959608a1b81565b6040519081526020016100d8565b34801561011f575f80fd5b5061012861029d565b60405165ffffffffffff90911681526020016100d8565b34801561014a575f80fd5b5061018a6101593660046104c9565b5f63ffffffff8316602085901b67ffffffff0000000016604084901b65ffffffffffff60401b161717949350505050565b6040516001600160701b0390911681526020016100d8565b3480156101ad575f80fd5b506100b16101bc36600461049d565b6102ab565b3480156101cc575f80fd5b506101286102b7565b3480156101e0575f80fd5b506101f46101ef36600461049d565b6102c0565b60405163ffffffff90911681526020016100d8565b348015610214575f80fd5b50610228610223366004610517565b6102d0565b604080516001600160701b03909316835265ffffffffffff9091166020830152016100d8565b348015610259575f80fd5b5061018a610268366004610557565b6102e9565b5f808069ffffffffffffffffffff602085901c168465ffffffffffff604082901c165b9196909550909350915050565b5f6102a66102f6565b905090565b5f805f61029084610300565b5f6102a6610321565b5f6102ca8261032b565b92915050565b5f806102dd858585610349565b90969095509350505050565b5f63ffffffff82166102ca565b5f6102a6436103ea565b5f805f6103148461030f610321565b610424565b9250925092509193909250565b5f6102a6426103ea565b5f8061033f836001600160701b0316610300565b5090949350505050565b5f805f61035e866001600160701b031661032b565b90505f6103998563ffffffff168763ffffffff168463ffffffff1611610384575f61038e565b61038e8885610584565b63ffffffff16610470565b90508063ffffffff166103aa610321565b6103b491906105a8565b925063ffffffff8616602083901b67ffffffff0000000016604085901b65ffffffffffff60401b16171793505050935093915050565b5f65ffffffffffff821115610420576040516306dfcc6560e41b8152603060048201526024810183905260440160405180910390fd5b5090565b69ffffffffffffffffffff602083901c166001600160701b03831665ffffffffffff604085901c811690841681111561045f57828282610463565b815f805b9250925092509250925092565b5f8282188284110282185b9392505050565b80356001600160701b0381168114610498575f80fd5b919050565b5f602082840312156104ad575f80fd5b61047b82610482565b803563ffffffff81168114610498575f80fd5b5f805f606084860312156104db575f80fd5b6104e4846104b6565b92506104f2602085016104b6565b9150604084013565ffffffffffff8116811461050c575f80fd5b809150509250925092565b5f805f60608486031215610529575f80fd5b61053284610482565b9250610540602085016104b6565b915061054e604085016104b6565b90509250925092565b5f60208284031215610567575f80fd5b61047b826104b6565b634e487b7160e01b5f52601160045260245ffd5b63ffffffff8281168282160390808211156105a1576105a1610570565b5092915050565b65ffffffffffff8181168382160190808211156105a1576105a161057056fea2646970667358221220b42525d039c3933bcfebae6a8375163c56038882c9097cc941ed9a61ff0255ad64736f6c63430008180033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

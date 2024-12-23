@@ -1,0 +1,119 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "$AuthorityDelayMock",
+  "sourceName": "contracts-exposed/mocks/AuthorityMock.sol",
+  "abi": [
+    {
+      "inputs": [],
+      "stateMutability": "payable",
+      "type": "constructor"
+    },
+    {
+      "inputs": [],
+      "name": "$_delay",
+      "outputs": [
+        {
+          "internalType": "uint32",
+          "name": "",
+          "type": "uint32"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "$_immediate",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "__hh_exposed_bytecode_marker",
+      "outputs": [
+        {
+          "internalType": "bytes32",
+          "name": "",
+          "type": "bytes32"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint32",
+          "name": "delay",
+          "type": "uint32"
+        }
+      ],
+      "name": "_setDelay",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "bool",
+          "name": "immediate",
+          "type": "bool"
+        }
+      ],
+      "name": "_setImmediate",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        },
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        },
+        {
+          "internalType": "bytes4",
+          "name": "",
+          "type": "bytes4"
+        }
+      ],
+      "name": "canCall",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "immediate",
+          "type": "bool"
+        },
+        {
+          "internalType": "uint32",
+          "name": "delay",
+          "type": "uint32"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "stateMutability": "payable",
+      "type": "receive"
+    }
+  ],
+  "bytecode": "0x608060405261028b806100115f395ff3fe608060405260043610610057575f3560e01c8063042d3945146100625780632afc452114610095578063342db739146100d25780633e5047b214610105578063b700961314610131578063dce40a0014610180575f80fd5b3661005e57005b5f80fd5b34801561006d575f80fd5b505f54610100900463ffffffff1660405163ffffffff90911681526020015b60405180910390f35b3480156100a0575f80fd5b506100d06100af3660046101a1565b5f805463ffffffff9092166101000264ffffffff0019909216919091179055565b005b3480156100dd575f80fd5b506100f76e1a185c991a185d0b595e1c1bdcd959608a1b81565b60405190815260200161008c565b348015610110575f80fd5b506100d061011f3660046101cb565b5f805460ff1916911515919091179055565b34801561013c575f80fd5b5061016461014b366004610205565b50505f5460ff81169261010090910463ffffffff169150565b60408051921515835263ffffffff90911660208301520161008c565b34801561018b575f80fd5b505f5460ff16604051901515815260200161008c565b5f602082840312156101b1575f80fd5b813563ffffffff811681146101c4575f80fd5b9392505050565b5f602082840312156101db575f80fd5b813580151581146101c4575f80fd5b80356001600160a01b0381168114610200575f80fd5b919050565b5f805f60608486031215610217575f80fd5b610220846101ea565b925061022e602085016101ea565b915060408401356001600160e01b03198116811461024a575f80fd5b80915050925092509256fea2646970667358221220ffcc866d8c09bf5fc1d4651a6282bdd8a7e72f1de09ed4e029ed53ebb339517264736f6c63430008180033",
+  "deployedBytecode": "0x608060405260043610610057575f3560e01c8063042d3945146100625780632afc452114610095578063342db739146100d25780633e5047b214610105578063b700961314610131578063dce40a0014610180575f80fd5b3661005e57005b5f80fd5b34801561006d575f80fd5b505f54610100900463ffffffff1660405163ffffffff90911681526020015b60405180910390f35b3480156100a0575f80fd5b506100d06100af3660046101a1565b5f805463ffffffff9092166101000264ffffffff0019909216919091179055565b005b3480156100dd575f80fd5b506100f76e1a185c991a185d0b595e1c1bdcd959608a1b81565b60405190815260200161008c565b348015610110575f80fd5b506100d061011f3660046101cb565b5f805460ff1916911515919091179055565b34801561013c575f80fd5b5061016461014b366004610205565b50505f5460ff81169261010090910463ffffffff169150565b60408051921515835263ffffffff90911660208301520161008c565b34801561018b575f80fd5b505f5460ff16604051901515815260200161008c565b5f602082840312156101b1575f80fd5b813563ffffffff811681146101c4575f80fd5b9392505050565b5f602082840312156101db575f80fd5b813580151581146101c4575f80fd5b80356001600160a01b0381168114610200575f80fd5b919050565b5f805f60608486031215610217575f80fd5b610220846101ea565b925061022e602085016101ea565b915060408401356001600160e01b03198116811461024a575f80fd5b80915050925092509256fea2646970667358221220ffcc866d8c09bf5fc1d4651a6282bdd8a7e72f1de09ed4e029ed53ebb339517264736f6c63430008180033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

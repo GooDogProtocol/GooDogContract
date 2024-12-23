@@ -1,0 +1,33 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "$Dummy1234",
+  "sourceName": "contracts-exposed/mocks/Stateless.sol",
+  "abi": [
+    {
+      "inputs": [],
+      "stateMutability": "payable",
+      "type": "constructor"
+    },
+    {
+      "inputs": [],
+      "name": "__hh_exposed_bytecode_marker",
+      "outputs": [
+        {
+          "internalType": "bytes32",
+          "name": "",
+          "type": "bytes32"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "stateMutability": "payable",
+      "type": "receive"
+    }
+  ],
+  "bytecode": "0x6080604052609380600f5f395ff3fe608060405260043610601e575f3560e01c8063342db739146028575f80fd5b36602457005b5f80fd5b3480156032575f80fd5b50604b6e1a185c991a185d0b595e1c1bdcd959608a1b81565b60405190815260200160405180910390f3fea26469706673582212201f7d1bc412e934042b52b022a572107674a1abe4f255e609d01a6acee9f0ed7d64736f6c63430008180033",
+  "deployedBytecode": "0x608060405260043610601e575f3560e01c8063342db739146028575f80fd5b36602457005b5f80fd5b3480156032575f80fd5b50604b6e1a185c991a185d0b595e1c1bdcd959608a1b81565b60405190815260200160405180910390f3fea26469706673582212201f7d1bc412e934042b52b022a572107674a1abe4f255e609d01a6acee9f0ed7d64736f6c63430008180033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

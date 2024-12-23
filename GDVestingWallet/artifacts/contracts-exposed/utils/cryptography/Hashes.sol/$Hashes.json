@@ -1,0 +1,57 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "$Hashes",
+  "sourceName": "contracts-exposed/utils/cryptography/Hashes.sol",
+  "abi": [
+    {
+      "inputs": [],
+      "stateMutability": "payable",
+      "type": "constructor"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "bytes32",
+          "name": "a",
+          "type": "bytes32"
+        },
+        {
+          "internalType": "bytes32",
+          "name": "b",
+          "type": "bytes32"
+        }
+      ],
+      "name": "$commutativeKeccak256",
+      "outputs": [
+        {
+          "internalType": "bytes32",
+          "name": "ret0",
+          "type": "bytes32"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "__hh_exposed_bytecode_marker",
+      "outputs": [
+        {
+          "internalType": "bytes32",
+          "name": "",
+          "type": "bytes32"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "stateMutability": "payable",
+      "type": "receive"
+    }
+  ],
+  "bytecode": "0x608060405261010b806100115f395ff3fe6080604052600436106028575f3560e01c8063342db739146032578063b79462be146067575f80fd5b36602e57005b5f80fd5b348015603c575f80fd5b5060556e1a185c991a185d0b595e1c1bdcd959608a1b81565b60405190815260200160405180910390f35b3480156071575f80fd5b506055607d36600460b6565b5f60868383608d565b9392505050565b5f81831060a5575f8281526020849052604090206086565b5f8381526020839052604090206086565b5f806040838503121560c6575f80fd5b5050803592602090910135915056fea2646970667358221220b0a16bc9c2ae1bd6cc4551c47bb7dafe7fa5c366f683ecc76e9e3ed3e61c593364736f6c63430008180033",
+  "deployedBytecode": "0x6080604052600436106028575f3560e01c8063342db739146032578063b79462be146067575f80fd5b36602e57005b5f80fd5b348015603c575f80fd5b5060556e1a185c991a185d0b595e1c1bdcd959608a1b81565b60405190815260200160405180910390f35b3480156071575f80fd5b506055607d36600460b6565b5f60868383608d565b9392505050565b5f81831060a5575f8281526020849052604090206086565b5f8381526020839052604090206086565b5f806040838503121560c6575f80fd5b5050803592602090910135915056fea2646970667358221220b0a16bc9c2ae1bd6cc4551c47bb7dafe7fa5c366f683ecc76e9e3ed3e61c593364736f6c63430008180033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

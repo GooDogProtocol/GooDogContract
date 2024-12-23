@@ -1,6 +1,7 @@
 # GooDog Contract
 
 > A fork of Uniswap v2/v3, optimized and customized for GooDog Protocol.
+> GDVestingWallet is implemented based on VestingWalletCliff from OpenZeppelin Contracts (v5.1)
 
 An open source interface for Uniswap -- a protocol for decentralized exchange of Ethereum tokens.
 - Whitepapers:

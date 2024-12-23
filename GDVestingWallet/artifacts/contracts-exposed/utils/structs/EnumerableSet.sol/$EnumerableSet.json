@@ -1,0 +1,513 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "$EnumerableSet",
+  "sourceName": "contracts-exposed/utils/structs/EnumerableSet.sol",
+  "abi": [
+    {
+      "inputs": [],
+      "stateMutability": "payable",
+      "type": "constructor"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "internalType": "bool",
+          "name": "ret0",
+          "type": "bool"
+        }
+      ],
+      "name": "return$add_EnumerableSet_AddressSet_address",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "internalType": "bool",
+          "name": "ret0",
+          "type": "bool"
+        }
+      ],
+      "name": "return$add_EnumerableSet_Bytes32Set_bytes32",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "internalType": "bool",
+          "name": "ret0",
+          "type": "bool"
+        }
+      ],
+      "name": "return$add_EnumerableSet_UintSet_uint256",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "internalType": "bool",
+          "name": "ret0",
+          "type": "bool"
+        }
+      ],
+      "name": "return$remove_EnumerableSet_AddressSet_address",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "internalType": "bool",
+          "name": "ret0",
+          "type": "bool"
+        }
+      ],
+      "name": "return$remove_EnumerableSet_Bytes32Set_bytes32",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "internalType": "bool",
+          "name": "ret0",
+          "type": "bool"
+        }
+      ],
+      "name": "return$remove_EnumerableSet_UintSet_uint256",
+      "type": "event"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "set",
+          "type": "uint256"
+        },
+        {
+          "internalType": "address",
+          "name": "value",
+          "type": "address"
+        }
+      ],
+      "name": "$add",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "ret0",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "payable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "set",
+          "type": "uint256"
+        },
+        {
+          "internalType": "bytes32",
+          "name": "value",
+          "type": "bytes32"
+        }
+      ],
+      "name": "$add",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "ret0",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "payable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "set",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "value",
+          "type": "uint256"
+        }
+      ],
+      "name": "$add",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "ret0",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "payable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "set",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "index",
+          "type": "uint256"
+        }
+      ],
+      "name": "$at_EnumerableSet_AddressSet",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "ret0",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "set",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "index",
+          "type": "uint256"
+        }
+      ],
+      "name": "$at_EnumerableSet_Bytes32Set",
+      "outputs": [
+        {
+          "internalType": "bytes32",
+          "name": "ret0",
+          "type": "bytes32"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "set",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "index",
+          "type": "uint256"
+        }
+      ],
+      "name": "$at_EnumerableSet_UintSet",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "ret0",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "set",
+          "type": "uint256"
+        },
+        {
+          "internalType": "bytes32",
+          "name": "value",
+          "type": "bytes32"
+        }
+      ],
+      "name": "$contains",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "ret0",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "set",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "value",
+          "type": "uint256"
+        }
+      ],
+      "name": "$contains",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "ret0",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "set",
+          "type": "uint256"
+        },
+        {
+          "internalType": "address",
+          "name": "value",
+          "type": "address"
+        }
+      ],
+      "name": "$contains",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "ret0",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "set",
+          "type": "uint256"
+        }
+      ],
+      "name": "$length_EnumerableSet_AddressSet",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "ret0",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "set",
+          "type": "uint256"
+        }
+      ],
+      "name": "$length_EnumerableSet_Bytes32Set",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "ret0",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "set",
+          "type": "uint256"
+        }
+      ],
+      "name": "$length_EnumerableSet_UintSet",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "ret0",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "set",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "value",
+          "type": "uint256"
+        }
+      ],
+      "name": "$remove",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "ret0",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "payable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "set",
+          "type": "uint256"
+        },
+        {
+          "internalType": "address",
+          "name": "value",
+          "type": "address"
+        }
+      ],
+      "name": "$remove",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "ret0",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "payable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "set",
+          "type": "uint256"
+        },
+        {
+          "internalType": "bytes32",
+          "name": "value",
+          "type": "bytes32"
+        }
+      ],
+      "name": "$remove",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "ret0",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "payable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "set",
+          "type": "uint256"
+        }
+      ],
+      "name": "$values_EnumerableSet_AddressSet",
+      "outputs": [
+        {
+          "internalType": "address[]",
+          "name": "ret0",
+          "type": "address[]"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "set",
+          "type": "uint256"
+        }
+      ],
+      "name": "$values_EnumerableSet_Bytes32Set",
+      "outputs": [
+        {
+          "internalType": "bytes32[]",
+          "name": "ret0",
+          "type": "bytes32[]"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "set",
+          "type": "uint256"
+        }
+      ],
+      "name": "$values_EnumerableSet_UintSet",
+      "outputs": [
+        {
+          "internalType": "uint256[]",
+          "name": "ret0",
+          "type": "uint256[]"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "__hh_exposed_bytecode_marker",
+      "outputs": [
+        {
+          "internalType": "bytes32",
+          "name": "",
+          "type": "bytes32"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "stateMutability": "payable",
+      "type": "receive"
+    }
+  ],
+  "bytecode": "0x6080604052610a30806100115f395ff3fe608060405260043610610113575f3560e01c806379d3ae591161009d578063bf928c8a11610062578063bf928c8a1461030b578063c89222eb1461032a578063dc0db1b21461033d578063e22b59af1461035c578063ef7078531461036f575f80fd5b806379d3ae591461026357806399343800146102825780639c1a6f79146102ae578063a06de356146102cd578063a987971d146102ec575f80fd5b8063342db739116100e3578063342db739146101e657806339d9d7c11461020b57806367b8c3621461022a57806369e5fe6a1461023d5780637030024214610250575f80fd5b806308b9b25e1461011e5780632055ca641461015357806325529527146101825780632c3566e6146101af575f80fd5b3661011a57005b5f80fd5b348015610129575f80fd5b5061013d6101383660046108c0565b610382565b60405161014a91906108d7565b60405180910390f35b34801561015e575f80fd5b5061017261016d366004610923565b6103a1565b604051901515815260200161014a565b34801561018d575f80fd5b506101a161019c366004610923565b6103bf565b60405190815260200161014a565b3480156101ba575f80fd5b506101ce6101c9366004610923565b6103d6565b6040516001600160a01b03909116815260200161014a565b3480156101f1575f80fd5b506101a16e1a185c991a185d0b595e1c1bdcd959608a1b81565b348015610216575f80fd5b506101a16102253660046108c0565b6103ed565b610172610238366004610923565b610403565b61017261024b366004610943565b61045d565b61017261025e366004610923565b6104a9565b34801561026e575f80fd5b5061017261027d366004610923565b6104f5565b34801561028d575f80fd5b506102a161029c3660046108c0565b61050c565b60405161014a919061097c565b3480156102b9575f80fd5b506101726102c8366004610943565b610525565b3480156102d8575f80fd5b506101a16102e73660046108c0565b61053c565b3480156102f7575f80fd5b506102a16103063660046108c0565b610552565b348015610316575f80fd5b506101a16103253660046108c0565b61056b565b610172610338366004610923565b610581565b348015610348575f80fd5b506101a1610357366004610923565b6105cd565b61017261036a366004610943565b6105e4565b61017261037d366004610923565b610630565b5f81815260016020526040902060609061039b9061067c565b92915050565b5f8281526020819052604081206103b89083610688565b9392505050565b5f8281526020819052604081206103b8908361069f565b5f8281526001602052604081206103b8908361069f565b5f81815260016020526040812061039b906106aa565b5f82815260026020526040812061041a90836106b3565b90507f8fde54a9dd39a1f3f4ea5a3120f4598a86777870c47c42f5bc0575bba8147fe18160405161044f911515815260200190565b60405180910390a192915050565b5f82815260016020526040812061047490836106be565b90507f4414770765525b64e76463c3240b8a479d3e11c71e2cd48ebf501fa8d929ea328160405161044f911515815260200190565b5f8281526020819052604081206104c090836106d2565b90507fe221f76a3a840d071802f88720f406f005243776ac424d1c7da2a40b01be1cd08160405161044f911515815260200190565b5f8281526002602052604081206103b89083610688565b5f81815260208190526040902060609061039b9061067c565b5f8281526001602052604081206103b890836106dd565b5f81815260208190526040812061039b906106aa565b5f81815260026020526040902060609061039b9061067c565b5f81815260026020526040812061039b906106aa565b5f82815260026020526040812061059890836106d2565b90507f4b170b2fc5ba52b588af385924324e7f799e2143c07e694baf8c14ccaad422e38160405161044f911515815260200190565b5f8281526002602052604081206103b8908361069f565b5f8281526001602052604081206105fb90836106fe565b90507fd05af070df65196a0e442213d2fbc879822259f8d638d6e6f79e5267d996d7148160405161044f911515815260200190565b5f82815260208190526040812061064790836106b3565b90507f2907ee51f38725c5dd6200e866adb3517a73e760ba40aec0cb37bede8759a5448160405161044f911515815260200190565b60605f6103b883610712565b5f81815260018301602052604081205415156103b8565b5f6103b8838361076b565b5f61039b825490565b5f6103b88383610791565b5f6103b8836001600160a01b038416610874565b5f6103b88383610874565b6001600160a01b0381165f90815260018301602052604081205415156103b8565b5f6103b8836001600160a01b038416610791565b6060815f0180548060200260200160405190810160405280929190818152602001828054801561075f57602002820191905f5260205f20905b81548152602001906001019080831161074b575b50505050509050919050565b5f825f018281548110610780576107806109b3565b905f5260205f200154905092915050565b5f818152600183016020526040812054801561086b575f6107b36001836109c7565b85549091505f906107c6906001906109c7565b9050808214610825575f865f0182815481106107e4576107e46109b3565b905f5260205f200154905080875f018481548110610804576108046109b3565b5f918252602080832090910192909255918252600188019052604090208390555b8554869080610836576108366109e6565b600190038181905f5260205f20015f90559055856001015f8681526020019081526020015f205f90556001935050505061039b565b5f91505061039b565b5f8181526001830160205260408120546108b957508154600181810184555f84815260208082209093018490558454848252828601909352604090209190915561039b565b505f61039b565b5f602082840312156108d0575f80fd5b5035919050565b602080825282518282018190525f9190848201906040850190845b818110156109175783516001600160a01b0316835292840192918401916001016108f2565b50909695505050505050565b5f8060408385031215610934575f80fd5b50508035926020909101359150565b5f8060408385031215610954575f80fd5b8235915060208301356001600160a01b0381168114610971575f80fd5b809150509250929050565b602080825282518282018190525f9190848201906040850190845b8181101561091757835183529284019291840191600101610997565b634e487b7160e01b5f52603260045260245ffd5b8181038181111561039b57634e487b7160e01b5f52601160045260245ffd5b634e487b7160e01b5f52603160045260245ffdfea264697066735822122013ff387ee80269f028faea677d2316e39151ad9e02f5217402b1320e1cf5b3c264736f6c63430008180033",
+  "deployedBytecode": "0x608060405260043610610113575f3560e01c806379d3ae591161009d578063bf928c8a11610062578063bf928c8a1461030b578063c89222eb1461032a578063dc0db1b21461033d578063e22b59af1461035c578063ef7078531461036f575f80fd5b806379d3ae591461026357806399343800146102825780639c1a6f79146102ae578063a06de356146102cd578063a987971d146102ec575f80fd5b8063342db739116100e3578063342db739146101e657806339d9d7c11461020b57806367b8c3621461022a57806369e5fe6a1461023d5780637030024214610250575f80fd5b806308b9b25e1461011e5780632055ca641461015357806325529527146101825780632c3566e6146101af575f80fd5b3661011a57005b5f80fd5b348015610129575f80fd5b5061013d6101383660046108c0565b610382565b60405161014a91906108d7565b60405180910390f35b34801561015e575f80fd5b5061017261016d366004610923565b6103a1565b604051901515815260200161014a565b34801561018d575f80fd5b506101a161019c366004610923565b6103bf565b60405190815260200161014a565b3480156101ba575f80fd5b506101ce6101c9366004610923565b6103d6565b6040516001600160a01b03909116815260200161014a565b3480156101f1575f80fd5b506101a16e1a185c991a185d0b595e1c1bdcd959608a1b81565b348015610216575f80fd5b506101a16102253660046108c0565b6103ed565b610172610238366004610923565b610403565b61017261024b366004610943565b61045d565b61017261025e366004610923565b6104a9565b34801561026e575f80fd5b5061017261027d366004610923565b6104f5565b34801561028d575f80fd5b506102a161029c3660046108c0565b61050c565b60405161014a919061097c565b3480156102b9575f80fd5b506101726102c8366004610943565b610525565b3480156102d8575f80fd5b506101a16102e73660046108c0565b61053c565b3480156102f7575f80fd5b506102a16103063660046108c0565b610552565b348015610316575f80fd5b506101a16103253660046108c0565b61056b565b610172610338366004610923565b610581565b348015610348575f80fd5b506101a1610357366004610923565b6105cd565b61017261036a366004610943565b6105e4565b61017261037d366004610923565b610630565b5f81815260016020526040902060609061039b9061067c565b92915050565b5f8281526020819052604081206103b89083610688565b9392505050565b5f8281526020819052604081206103b8908361069f565b5f8281526001602052604081206103b8908361069f565b5f81815260016020526040812061039b906106aa565b5f82815260026020526040812061041a90836106b3565b90507f8fde54a9dd39a1f3f4ea5a3120f4598a86777870c47c42f5bc0575bba8147fe18160405161044f911515815260200190565b60405180910390a192915050565b5f82815260016020526040812061047490836106be565b90507f4414770765525b64e76463c3240b8a479d3e11c71e2cd48ebf501fa8d929ea328160405161044f911515815260200190565b5f8281526020819052604081206104c090836106d2565b90507fe221f76a3a840d071802f88720f406f005243776ac424d1c7da2a40b01be1cd08160405161044f911515815260200190565b5f8281526002602052604081206103b89083610688565b5f81815260208190526040902060609061039b9061067c565b5f8281526001602052604081206103b890836106dd565b5f81815260208190526040812061039b906106aa565b5f81815260026020526040902060609061039b9061067c565b5f81815260026020526040812061039b906106aa565b5f82815260026020526040812061059890836106d2565b90507f4b170b2fc5ba52b588af385924324e7f799e2143c07e694baf8c14ccaad422e38160405161044f911515815260200190565b5f8281526002602052604081206103b8908361069f565b5f8281526001602052604081206105fb90836106fe565b90507fd05af070df65196a0e442213d2fbc879822259f8d638d6e6f79e5267d996d7148160405161044f911515815260200190565b5f82815260208190526040812061064790836106b3565b90507f2907ee51f38725c5dd6200e866adb3517a73e760ba40aec0cb37bede8759a5448160405161044f911515815260200190565b60605f6103b883610712565b5f81815260018301602052604081205415156103b8565b5f6103b8838361076b565b5f61039b825490565b5f6103b88383610791565b5f6103b8836001600160a01b038416610874565b5f6103b88383610874565b6001600160a01b0381165f90815260018301602052604081205415156103b8565b5f6103b8836001600160a01b038416610791565b6060815f0180548060200260200160405190810160405280929190818152602001828054801561075f57602002820191905f5260205f20905b81548152602001906001019080831161074b575b50505050509050919050565b5f825f018281548110610780576107806109b3565b905f5260205f200154905092915050565b5f818152600183016020526040812054801561086b575f6107b36001836109c7565b85549091505f906107c6906001906109c7565b9050808214610825575f865f0182815481106107e4576107e46109b3565b905f5260205f200154905080875f018481548110610804576108046109b3565b5f918252602080832090910192909255918252600188019052604090208390555b8554869080610836576108366109e6565b600190038181905f5260205f20015f90559055856001015f8681526020019081526020015f205f90556001935050505061039b565b5f91505061039b565b5f8181526001830160205260408120546108b957508154600181810184555f84815260208082209093018490558454848252828601909352604090209190915561039b565b505f61039b565b5f602082840312156108d0575f80fd5b5035919050565b602080825282518282018190525f9190848201906040850190845b818110156109175783516001600160a01b0316835292840192918401916001016108f2565b50909695505050505050565b5f8060408385031215610934575f80fd5b50508035926020909101359150565b5f8060408385031215610954575f80fd5b8235915060208301356001600160a01b0381168114610971575f80fd5b809150509250929050565b602080825282518282018190525f9190848201906040850190845b8181101561091757835183529284019291840191600101610997565b634e487b7160e01b5f52603260045260245ffd5b8181038181111561039b57634e487b7160e01b5f52601160045260245ffd5b634e487b7160e01b5f52603160045260245ffdfea264697066735822122013ff387ee80269f028faea677d2316e39151ad9e02f5217402b1320e1cf5b3c264736f6c63430008180033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

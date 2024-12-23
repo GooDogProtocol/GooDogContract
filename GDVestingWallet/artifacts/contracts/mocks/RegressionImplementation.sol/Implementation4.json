@@ -1,0 +1,71 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "Implementation4",
+  "sourceName": "contracts/mocks/RegressionImplementation.sol",
+  "abi": [
+    {
+      "inputs": [],
+      "name": "InvalidInitialization",
+      "type": "error"
+    },
+    {
+      "inputs": [],
+      "name": "NotInitializing",
+      "type": "error"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "internalType": "uint64",
+          "name": "version",
+          "type": "uint64"
+        }
+      ],
+      "name": "Initialized",
+      "type": "event"
+    },
+    {
+      "stateMutability": "nonpayable",
+      "type": "fallback"
+    },
+    {
+      "inputs": [],
+      "name": "getValue",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "initialize",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "_number",
+          "type": "uint256"
+        }
+      ],
+      "name": "setValue",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x608060405234801561000f575f80fd5b506101c58061001d5f395ff3fe608060405234801561000f575f80fd5b506004361061003f575f3560e01c80632096525514610047578063552410771461005b5780638129fc1c1461006f575b60015f819055005b5f5460405190815260200160405180910390f35b61006d610069366004610178565b5f55565b005b7ff0c57e16840df040f15088dc2f81fe391c3923bec73e23a9662efc9c229c6a00805461006d9190600160401b810460ff16159067ffffffffffffffff165f811580156100b95750825b90505f8267ffffffffffffffff1660011480156100d55750303b155b9050811580156100e3575080155b156101015760405163f92ee8a960e01b815260040160405180910390fd5b845467ffffffffffffffff19166001178555831561012b57845460ff60401b1916600160401b1785555b831561017157845460ff60401b19168555604051600181527fc7f505b2f371ae2175ee4913f4499e1f2633a7b5936321eed1cdaeb6115181d29060200160405180910390a15b5050505050565b5f60208284031215610188575f80fd5b503591905056fea2646970667358221220ec2d494d9e87f1811ce6f7d473949fb35370d7a39e7eeb555cf25690588a3b3b64736f6c63430008180033",
+  "deployedBytecode": "0x608060405234801561000f575f80fd5b506004361061003f575f3560e01c80632096525514610047578063552410771461005b5780638129fc1c1461006f575b60015f819055005b5f5460405190815260200160405180910390f35b61006d610069366004610178565b5f55565b005b7ff0c57e16840df040f15088dc2f81fe391c3923bec73e23a9662efc9c229c6a00805461006d9190600160401b810460ff16159067ffffffffffffffff165f811580156100b95750825b90505f8267ffffffffffffffff1660011480156100d55750303b155b9050811580156100e3575080155b156101015760405163f92ee8a960e01b815260040160405180910390fd5b845467ffffffffffffffff19166001178555831561012b57845460ff60401b1916600160401b1785555b831561017157845460ff60401b19168555604051600181527fc7f505b2f371ae2175ee4913f4499e1f2633a7b5936321eed1cdaeb6115181d29060200160405180910390a15b5050505050565b5f60208284031215610188575f80fd5b503591905056fea2646970667358221220ec2d494d9e87f1811ce6f7d473949fb35370d7a39e7eeb555cf25690588a3b3b64736f6c63430008180033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

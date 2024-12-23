@@ -1,0 +1,1322 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "$SafeCast",
+  "sourceName": "contracts-exposed/utils/math/SafeCast.sol",
+  "abi": [
+    {
+      "inputs": [],
+      "stateMutability": "payable",
+      "type": "constructor"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint8",
+          "name": "bits",
+          "type": "uint8"
+        },
+        {
+          "internalType": "int256",
+          "name": "value",
+          "type": "int256"
+        }
+      ],
+      "name": "SafeCastOverflowedIntDowncast",
+      "type": "error"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "int256",
+          "name": "value",
+          "type": "int256"
+        }
+      ],
+      "name": "SafeCastOverflowedIntToUint",
+      "type": "error"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint8",
+          "name": "bits",
+          "type": "uint8"
+        },
+        {
+          "internalType": "uint256",
+          "name": "value",
+          "type": "uint256"
+        }
+      ],
+      "name": "SafeCastOverflowedUintDowncast",
+      "type": "error"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "value",
+          "type": "uint256"
+        }
+      ],
+      "name": "SafeCastOverflowedUintToInt",
+      "type": "error"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "int256",
+          "name": "value",
+          "type": "int256"
+        }
+      ],
+      "name": "$toInt104",
+      "outputs": [
+        {
+          "internalType": "int104",
+          "name": "downcasted",
+          "type": "int104"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "int256",
+          "name": "value",
+          "type": "int256"
+        }
+      ],
+      "name": "$toInt112",
+      "outputs": [
+        {
+          "internalType": "int112",
+          "name": "downcasted",
+          "type": "int112"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "int256",
+          "name": "value",
+          "type": "int256"
+        }
+      ],
+      "name": "$toInt120",
+      "outputs": [
+        {
+          "internalType": "int120",
+          "name": "downcasted",
+          "type": "int120"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "int256",
+          "name": "value",
+          "type": "int256"
+        }
+      ],
+      "name": "$toInt128",
+      "outputs": [
+        {
+          "internalType": "int128",
+          "name": "downcasted",
+          "type": "int128"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "int256",
+          "name": "value",
+          "type": "int256"
+        }
+      ],
+      "name": "$toInt136",
+      "outputs": [
+        {
+          "internalType": "int136",
+          "name": "downcasted",
+          "type": "int136"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "int256",
+          "name": "value",
+          "type": "int256"
+        }
+      ],
+      "name": "$toInt144",
+      "outputs": [
+        {
+          "internalType": "int144",
+          "name": "downcasted",
+          "type": "int144"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "int256",
+          "name": "value",
+          "type": "int256"
+        }
+      ],
+      "name": "$toInt152",
+      "outputs": [
+        {
+          "internalType": "int152",
+          "name": "downcasted",
+          "type": "int152"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "int256",
+          "name": "value",
+          "type": "int256"
+        }
+      ],
+      "name": "$toInt16",
+      "outputs": [
+        {
+          "internalType": "int16",
+          "name": "downcasted",
+          "type": "int16"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "int256",
+          "name": "value",
+          "type": "int256"
+        }
+      ],
+      "name": "$toInt160",
+      "outputs": [
+        {
+          "internalType": "int160",
+          "name": "downcasted",
+          "type": "int160"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "int256",
+          "name": "value",
+          "type": "int256"
+        }
+      ],
+      "name": "$toInt168",
+      "outputs": [
+        {
+          "internalType": "int168",
+          "name": "downcasted",
+          "type": "int168"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "int256",
+          "name": "value",
+          "type": "int256"
+        }
+      ],
+      "name": "$toInt176",
+      "outputs": [
+        {
+          "internalType": "int176",
+          "name": "downcasted",
+          "type": "int176"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "int256",
+          "name": "value",
+          "type": "int256"
+        }
+      ],
+      "name": "$toInt184",
+      "outputs": [
+        {
+          "internalType": "int184",
+          "name": "downcasted",
+          "type": "int184"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "int256",
+          "name": "value",
+          "type": "int256"
+        }
+      ],
+      "name": "$toInt192",
+      "outputs": [
+        {
+          "internalType": "int192",
+          "name": "downcasted",
+          "type": "int192"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "int256",
+          "name": "value",
+          "type": "int256"
+        }
+      ],
+      "name": "$toInt200",
+      "outputs": [
+        {
+          "internalType": "int200",
+          "name": "downcasted",
+          "type": "int200"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "int256",
+          "name": "value",
+          "type": "int256"
+        }
+      ],
+      "name": "$toInt208",
+      "outputs": [
+        {
+          "internalType": "int208",
+          "name": "downcasted",
+          "type": "int208"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "int256",
+          "name": "value",
+          "type": "int256"
+        }
+      ],
+      "name": "$toInt216",
+      "outputs": [
+        {
+          "internalType": "int216",
+          "name": "downcasted",
+          "type": "int216"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "int256",
+          "name": "value",
+          "type": "int256"
+        }
+      ],
+      "name": "$toInt224",
+      "outputs": [
+        {
+          "internalType": "int224",
+          "name": "downcasted",
+          "type": "int224"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "int256",
+          "name": "value",
+          "type": "int256"
+        }
+      ],
+      "name": "$toInt232",
+      "outputs": [
+        {
+          "internalType": "int232",
+          "name": "downcasted",
+          "type": "int232"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "int256",
+          "name": "value",
+          "type": "int256"
+        }
+      ],
+      "name": "$toInt24",
+      "outputs": [
+        {
+          "internalType": "int24",
+          "name": "downcasted",
+          "type": "int24"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "int256",
+          "name": "value",
+          "type": "int256"
+        }
+      ],
+      "name": "$toInt240",
+      "outputs": [
+        {
+          "internalType": "int240",
+          "name": "downcasted",
+          "type": "int240"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "int256",
+          "name": "value",
+          "type": "int256"
+        }
+      ],
+      "name": "$toInt248",
+      "outputs": [
+        {
+          "internalType": "int248",
+          "name": "downcasted",
+          "type": "int248"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "value",
+          "type": "uint256"
+        }
+      ],
+      "name": "$toInt256",
+      "outputs": [
+        {
+          "internalType": "int256",
+          "name": "ret0",
+          "type": "int256"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "int256",
+          "name": "value",
+          "type": "int256"
+        }
+      ],
+      "name": "$toInt32",
+      "outputs": [
+        {
+          "internalType": "int32",
+          "name": "downcasted",
+          "type": "int32"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "int256",
+          "name": "value",
+          "type": "int256"
+        }
+      ],
+      "name": "$toInt40",
+      "outputs": [
+        {
+          "internalType": "int40",
+          "name": "downcasted",
+          "type": "int40"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "int256",
+          "name": "value",
+          "type": "int256"
+        }
+      ],
+      "name": "$toInt48",
+      "outputs": [
+        {
+          "internalType": "int48",
+          "name": "downcasted",
+          "type": "int48"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "int256",
+          "name": "value",
+          "type": "int256"
+        }
+      ],
+      "name": "$toInt56",
+      "outputs": [
+        {
+          "internalType": "int56",
+          "name": "downcasted",
+          "type": "int56"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "int256",
+          "name": "value",
+          "type": "int256"
+        }
+      ],
+      "name": "$toInt64",
+      "outputs": [
+        {
+          "internalType": "int64",
+          "name": "downcasted",
+          "type": "int64"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "int256",
+          "name": "value",
+          "type": "int256"
+        }
+      ],
+      "name": "$toInt72",
+      "outputs": [
+        {
+          "internalType": "int72",
+          "name": "downcasted",
+          "type": "int72"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "int256",
+          "name": "value",
+          "type": "int256"
+        }
+      ],
+      "name": "$toInt8",
+      "outputs": [
+        {
+          "internalType": "int8",
+          "name": "downcasted",
+          "type": "int8"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "int256",
+          "name": "value",
+          "type": "int256"
+        }
+      ],
+      "name": "$toInt80",
+      "outputs": [
+        {
+          "internalType": "int80",
+          "name": "downcasted",
+          "type": "int80"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "int256",
+          "name": "value",
+          "type": "int256"
+        }
+      ],
+      "name": "$toInt88",
+      "outputs": [
+        {
+          "internalType": "int88",
+          "name": "downcasted",
+          "type": "int88"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "int256",
+          "name": "value",
+          "type": "int256"
+        }
+      ],
+      "name": "$toInt96",
+      "outputs": [
+        {
+          "internalType": "int96",
+          "name": "downcasted",
+          "type": "int96"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "bool",
+          "name": "b",
+          "type": "bool"
+        }
+      ],
+      "name": "$toUint",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "u",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "value",
+          "type": "uint256"
+        }
+      ],
+      "name": "$toUint104",
+      "outputs": [
+        {
+          "internalType": "uint104",
+          "name": "ret0",
+          "type": "uint104"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "value",
+          "type": "uint256"
+        }
+      ],
+      "name": "$toUint112",
+      "outputs": [
+        {
+          "internalType": "uint112",
+          "name": "ret0",
+          "type": "uint112"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "value",
+          "type": "uint256"
+        }
+      ],
+      "name": "$toUint120",
+      "outputs": [
+        {
+          "internalType": "uint120",
+          "name": "ret0",
+          "type": "uint120"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "value",
+          "type": "uint256"
+        }
+      ],
+      "name": "$toUint128",
+      "outputs": [
+        {
+          "internalType": "uint128",
+          "name": "ret0",
+          "type": "uint128"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "value",
+          "type": "uint256"
+        }
+      ],
+      "name": "$toUint136",
+      "outputs": [
+        {
+          "internalType": "uint136",
+          "name": "ret0",
+          "type": "uint136"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "value",
+          "type": "uint256"
+        }
+      ],
+      "name": "$toUint144",
+      "outputs": [
+        {
+          "internalType": "uint144",
+          "name": "ret0",
+          "type": "uint144"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "value",
+          "type": "uint256"
+        }
+      ],
+      "name": "$toUint152",
+      "outputs": [
+        {
+          "internalType": "uint152",
+          "name": "ret0",
+          "type": "uint152"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "value",
+          "type": "uint256"
+        }
+      ],
+      "name": "$toUint16",
+      "outputs": [
+        {
+          "internalType": "uint16",
+          "name": "ret0",
+          "type": "uint16"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "value",
+          "type": "uint256"
+        }
+      ],
+      "name": "$toUint160",
+      "outputs": [
+        {
+          "internalType": "uint160",
+          "name": "ret0",
+          "type": "uint160"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "value",
+          "type": "uint256"
+        }
+      ],
+      "name": "$toUint168",
+      "outputs": [
+        {
+          "internalType": "uint168",
+          "name": "ret0",
+          "type": "uint168"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "value",
+          "type": "uint256"
+        }
+      ],
+      "name": "$toUint176",
+      "outputs": [
+        {
+          "internalType": "uint176",
+          "name": "ret0",
+          "type": "uint176"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "value",
+          "type": "uint256"
+        }
+      ],
+      "name": "$toUint184",
+      "outputs": [
+        {
+          "internalType": "uint184",
+          "name": "ret0",
+          "type": "uint184"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "value",
+          "type": "uint256"
+        }
+      ],
+      "name": "$toUint192",
+      "outputs": [
+        {
+          "internalType": "uint192",
+          "name": "ret0",
+          "type": "uint192"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "value",
+          "type": "uint256"
+        }
+      ],
+      "name": "$toUint200",
+      "outputs": [
+        {
+          "internalType": "uint200",
+          "name": "ret0",
+          "type": "uint200"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "value",
+          "type": "uint256"
+        }
+      ],
+      "name": "$toUint208",
+      "outputs": [
+        {
+          "internalType": "uint208",
+          "name": "ret0",
+          "type": "uint208"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "value",
+          "type": "uint256"
+        }
+      ],
+      "name": "$toUint216",
+      "outputs": [
+        {
+          "internalType": "uint216",
+          "name": "ret0",
+          "type": "uint216"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "value",
+          "type": "uint256"
+        }
+      ],
+      "name": "$toUint224",
+      "outputs": [
+        {
+          "internalType": "uint224",
+          "name": "ret0",
+          "type": "uint224"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "value",
+          "type": "uint256"
+        }
+      ],
+      "name": "$toUint232",
+      "outputs": [
+        {
+          "internalType": "uint232",
+          "name": "ret0",
+          "type": "uint232"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "value",
+          "type": "uint256"
+        }
+      ],
+      "name": "$toUint24",
+      "outputs": [
+        {
+          "internalType": "uint24",
+          "name": "ret0",
+          "type": "uint24"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "value",
+          "type": "uint256"
+        }
+      ],
+      "name": "$toUint240",
+      "outputs": [
+        {
+          "internalType": "uint240",
+          "name": "ret0",
+          "type": "uint240"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "value",
+          "type": "uint256"
+        }
+      ],
+      "name": "$toUint248",
+      "outputs": [
+        {
+          "internalType": "uint248",
+          "name": "ret0",
+          "type": "uint248"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "int256",
+          "name": "value",
+          "type": "int256"
+        }
+      ],
+      "name": "$toUint256",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "ret0",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "value",
+          "type": "uint256"
+        }
+      ],
+      "name": "$toUint32",
+      "outputs": [
+        {
+          "internalType": "uint32",
+          "name": "ret0",
+          "type": "uint32"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "value",
+          "type": "uint256"
+        }
+      ],
+      "name": "$toUint40",
+      "outputs": [
+        {
+          "internalType": "uint40",
+          "name": "ret0",
+          "type": "uint40"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "value",
+          "type": "uint256"
+        }
+      ],
+      "name": "$toUint48",
+      "outputs": [
+        {
+          "internalType": "uint48",
+          "name": "ret0",
+          "type": "uint48"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "value",
+          "type": "uint256"
+        }
+      ],
+      "name": "$toUint56",
+      "outputs": [
+        {
+          "internalType": "uint56",
+          "name": "ret0",
+          "type": "uint56"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "value",
+          "type": "uint256"
+        }
+      ],
+      "name": "$toUint64",
+      "outputs": [
+        {
+          "internalType": "uint64",
+          "name": "ret0",
+          "type": "uint64"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "value",
+          "type": "uint256"
+        }
+      ],
+      "name": "$toUint72",
+      "outputs": [
+        {
+          "internalType": "uint72",
+          "name": "ret0",
+          "type": "uint72"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "value",
+          "type": "uint256"
+        }
+      ],
+      "name": "$toUint8",
+      "outputs": [
+        {
+          "internalType": "uint8",
+          "name": "ret0",
+          "type": "uint8"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "value",
+          "type": "uint256"
+        }
+      ],
+      "name": "$toUint80",
+      "outputs": [
+        {
+          "internalType": "uint80",
+          "name": "ret0",
+          "type": "uint80"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "value",
+          "type": "uint256"
+        }
+      ],
+      "name": "$toUint88",
+      "outputs": [
+        {
+          "internalType": "uint88",
+          "name": "ret0",
+          "type": "uint88"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "value",
+          "type": "uint256"
+        }
+      ],
+      "name": "$toUint96",
+      "outputs": [
+        {
+          "internalType": "uint96",
+          "name": "ret0",
+          "type": "uint96"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "__hh_exposed_bytecode_marker",
+      "outputs": [
+        {
+          "internalType": "bytes32",
+          "name": "",
+          "type": "bytes32"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "stateMutability": "payable",
+      "type": "receive"
+    }
+  ],
+  "bytecode": "0x6080604052612063806100115f395ff3fe6080604052600436106103cb575f3560e01c8063940aa6e7116101f4578063d53eb8a411610113578063edab0f66116100a8578063f83a370c11610078578063f83a370c14611020578063f8e4d70014611056578063fa93069514611088578063fcbf8546146110bd578063ff7bb7b0146110ef575f80fd5b8063edab0f6614610f49578063edc5df2d14610f80578063ef44894114610fb7578063f714a32514610fe9575f80fd5b8063e2bbbef4116100e3578063e2bbbef414610e8c578063e41bac9b14610eab578063e447929c14610ee6578063ed9d0e3514610f18575f80fd5b8063d53eb8a414610dba578063dae839ba14610df1578063dc7b773a14610e23578063dedef39f14610e55575f80fd5b8063b87fa1b511610189578063bdd3ff5311610159578063bdd3ff5314610cdd578063cbf294c114610d14578063d2dcc34e14610d4c578063d32aa3c614610d7e575f80fd5b8063b87fa1b514610c0b578063ba1993f614610c3d578063bb34988014610c74578063bb6b14d414610cab575f80fd5b8063a511644a116101c4578063a511644a14610b34578063ad73dae614610b6b578063af71e11314610ba2578063b125016714610bd9575f80fd5b8063940aa6e714610a6357806398e34d3c14610a9a578063a084a66a14610acb578063a33675d614610b02575f80fd5b80633c41718b116102eb5780637f83f9cf116102805780638b4baa76116102505780638b4baa76146109755780638d4883e2146109a75780638f463032146109d9578063901d6177146109f857806390506c3b14610a31575f80fd5b80637f83f9cf146108a857806382c5114f146108df57806384d21abb14610911578063891c1cd414610943575f80fd5b80635d565c2c116102bb5780635d565c2c146107d657806362cacaee1461080d5780637c882bf01461083f5780637ecd8c4114610871575f80fd5b80633c41718b1461071c5780634467d1f8146107535780634b8d0dc5146107725780634fd16c61146107a4575f80fd5b8063211f44f3116103615780632bc92a6b116103315780632bc92a6b1461064d5780633158b57914610680578063342db739146106b2578063370ad0b5146106e5575f80fd5b8063211f44f31461057e57806324b0d17f146105b25780632aced3c4146105e95780632b3e28a91461061b575f80fd5b80630d8243b01161039c5780630d8243b0146104ab57806319b2f8c8146104dd5780631d4125991461050f57806320c85d661461054c575f80fd5b8062319523146103d657806308efd5181461040d578063094cbdb81461043f5780630b28c34a14610471575f80fd5b366103d257005b5f80fd5b3480156103e1575f80fd5b506103f56103f0366004611ff0565b611121565b60405160079190910b81526020015b60405180910390f35b348015610418575f80fd5b5061042c610427366004611ff0565b611131565b60405161ffff9091168152602001610404565b34801561044a575f80fd5b5061045e610459366004611ff0565b61113b565b604051601c9190910b8152602001610404565b34801561047c575f80fd5b5061049061048b366004611ff0565b611145565b60405169ffffffffffffffffffff9091168152602001610404565b3480156104b6575f80fd5b506104ca6104c5366004611ff0565b61114f565b60405160099190910b8152602001610404565b3480156104e8575f80fd5b506104fc6104f7366004611ff0565b611159565b604051601d9190910b8152602001610404565b34801561051a575f80fd5b5061052e610529366004611ff0565b611163565b6040516cffffffffffffffffffffffffff9091168152602001610404565b348015610557575f80fd5b5061056b610566366004611ff0565b61116d565b604051600c9190910b8152602001610404565b348015610589575f80fd5b5061059d610598366004611ff0565b611177565b60405163ffffffff9091168152602001610404565b3480156105bd575f80fd5b506105d16105cc366004611ff0565b611181565b6040516001600160781b039091168152602001610404565b3480156105f4575f80fd5b50610608610603366004611ff0565b61118b565b60405160139190910b8152602001610404565b348015610626575f80fd5b5061063a610635366004611ff0565b611195565b604051601b9190910b8152602001610404565b348015610658575f80fd5b5061066c610667366004611ff0565b61119f565b60405162ffffff9091168152602001610404565b34801561068b575f80fd5b5061069f61069a366004611ff0565b6111a9565b60405160109190910b8152602001610404565b3480156106bd575f80fd5b506106d76e1a185c991a185d0b595e1c1bdcd959608a1b81565b604051908152602001610404565b3480156106f0575f80fd5b506107046106ff366004611ff0565b6111b3565b6040516001600160e01b039091168152602001610404565b348015610727575f80fd5b5061073b610736366004611ff0565b6111bd565b6040516001600160801b039091168152602001610404565b34801561075e575f80fd5b506106d761076d366004611ff0565b6111c7565b34801561077d575f80fd5b5061079161078c366004611ff0565b6111d1565b60405160179190910b8152602001610404565b3480156107af575f80fd5b506107c36107be366004611ff0565b6111db565b604051601e9190910b8152602001610404565b3480156107e1575f80fd5b506107f56107f0366004611ff0565b6111e5565b6040516001600160701b039091168152602001610404565b348015610818575f80fd5b5061082c610827366004611ff0565b6111ef565b60405160089190910b8152602001610404565b34801561084a575f80fd5b5061085e610859366004611ff0565b6111f9565b60405160199190910b8152602001610404565b34801561087c575f80fd5b5061089061088b366004611ff0565b611203565b6040516001600160c81b039091168152602001610404565b3480156108b3575f80fd5b506108c76108c2366004611ff0565b61120d565b6040516001600160f01b039091168152602001610404565b3480156108ea575f80fd5b506108fe6108f9366004611ff0565b611217565b604051600a9190910b8152602001610404565b34801561091c575f80fd5b5061093061092b366004611ff0565b611221565b60405160169190910b8152602001610404565b34801561094e575f80fd5b5061096261095d366004611ff0565b61122b565b60405160069190910b8152602001610404565b348015610980575f80fd5b5061099461098f366004611ff0565b611235565b60405160129190910b8152602001610404565b3480156109b2575f80fd5b506109c66109c1366004611ff0565b61123f565b604051601a9190910b8152602001610404565b3480156109e4575f80fd5b506106d76109f3366004612007565b611249565b348015610a03575f80fd5b50610a17610a12366004611ff0565b611252565b60405168ffffffffffffffffff9091168152602001610404565b348015610a3c575f80fd5b50610a50610a4b366004611ff0565b61125c565b60405160049190910b8152602001610404565b348015610a6e575f80fd5b50610a82610a7d366004611ff0565b611266565b6040516001600160f81b039091168152602001610404565b348015610aa5575f80fd5b50610ab9610ab4366004611ff0565b611270565b60405160ff9091168152602001610404565b348015610ad6575f80fd5b50610aea610ae5366004611ff0565b61127a565b60405166ffffffffffffff9091168152602001610404565b348015610b0d575f80fd5b50610b21610b1c366004611ff0565b611284565b60405160029190910b8152602001610404565b348015610b3f575f80fd5b50610b53610b4e366004611ff0565b61128e565b6040516001600160881b039091168152602001610404565b348015610b76575f80fd5b50610b8a610b85366004611ff0565b611298565b6040516001600160c01b039091168152602001610404565b348015610bad575f80fd5b50610bc1610bbc366004611ff0565b6112a2565b6040516001600160e81b039091168152602001610404565b348015610be4575f80fd5b50610bf8610bf3366004611ff0565b6112ac565b60405160039190910b8152602001610404565b348015610c16575f80fd5b50610c2a610c25366004611ff0565b6112b6565b604051600e9190910b8152602001610404565b348015610c48575f80fd5b50610c5c610c57366004611ff0565b6112c0565b6040516001600160b01b039091168152602001610404565b348015610c7f575f80fd5b50610c93610c8e366004611ff0565b6112ca565b6040516001600160b81b039091168152602001610404565b348015610cb6575f80fd5b50610cca610cc5366004611ff0565b6112d4565b604051600d9190910b8152602001610404565b348015610ce8575f80fd5b50610cfc610cf7366004611ff0565b6112de565b6040516001600160d81b039091168152602001610404565b348015610d1f575f80fd5b50610d33610d2e366004611ff0565b6112e8565b60405167ffffffffffffffff9091168152602001610404565b348015610d57575f80fd5b50610d6b610d66366004611ff0565b6112f2565b604051600f9190910b8152602001610404565b348015610d89575f80fd5b50610d9d610d98366004611ff0565b6112fc565b6040516bffffffffffffffffffffffff9091168152602001610404565b348015610dc5575f80fd5b50610dd9610dd4366004611ff0565b611306565b6040516001600160d01b039091168152602001610404565b348015610dfc575f80fd5b50610e10610e0b366004611ff0565b611310565b604051600b9190910b8152602001610404565b348015610e2e575f80fd5b50610e42610e3d366004611ff0565b61131a565b60405160159190910b8152602001610404565b348015610e60575f80fd5b50610e74610e6f366004611ff0565b611324565b6040516001600160a01b039091168152602001610404565b348015610e97575f80fd5b506106d7610ea6366004611ff0565b61132e565b348015610eb6575f80fd5b50610eca610ec5366004611ff0565b611338565b6040516affffffffffffffffffffff9091168152602001610404565b348015610ef1575f80fd5b50610f05610f00366004611ff0565b611342565b60405160189190910b8152602001610404565b348015610f23575f80fd5b50610f37610f32366004611ff0565b61134c565b6040515f9190910b8152602001610404565b348015610f54575f80fd5b50610f68610f63366004611ff0565b611356565b6040516001600160901b039091168152602001610404565b348015610f8b575f80fd5b50610f9f610f9a366004611ff0565b611360565b6040516001600160a81b039091168152602001610404565b348015610fc2575f80fd5b50610fd6610fd1366004611ff0565b61136a565b60405160019190910b8152602001610404565b348015610ff4575f80fd5b50611008611003366004611ff0565b611374565b6040516001600160981b039091168152602001610404565b34801561102b575f80fd5b5061103f61103a366004611ff0565b61137e565b60405165ffffffffffff9091168152602001610404565b348015611061575f80fd5b50611075611070366004611ff0565b611388565b60405160119190910b8152602001610404565b348015611093575f80fd5b506110a76110a2366004611ff0565b611392565b60405164ffffffffff9091168152602001610404565b3480156110c8575f80fd5b506110dc6110d7366004611ff0565b61139c565b60405160149190910b8152602001610404565b3480156110fa575f80fd5b5061110e611109366004611ff0565b6113a6565b60405160059190910b8152602001610404565b5f61112b826113b0565b92915050565b5f61112b826113eb565b5f61112b8261141d565b5f61112b8261144c565b5f61112b82611482565b5f61112b826114b1565b5f61112b826114e0565b5f61112b82611519565b5f61112b82611548565b5f61112b82611578565b5f61112b826115ab565b5f61112b826115da565b5f61112b82611609565b5f61112b82611638565b5f61112b82611667565b5f61112b8261169a565b5f61112b826116cd565b5f61112b826116f9565b5f61112b82611728565b5f61112b82611757565b5f61112b8261178a565b5f61112b826117b9565b5f61112b826117e8565b5f61112b8261181b565b5f61112b8261184e565b5f61112b8261187d565b5f61112b826118ac565b5f61112b826118db565b5f61112b8261190a565b5f81151561112b565b5f61112b82611939565b5f61112b8261196e565b5f61112b8261199d565b5f61112b826119d0565b5f61112b826119fd565b5f61112b82611a30565b5f61112b82611a5f565b5f61112b82611a92565b5f61112b82611ac5565b5f61112b82611af8565b5f61112b82611b27565b5f61112b82611b56565b5f61112b82611b89565b5f61112b82611bbc565b5f61112b82611beb565b5f61112b82611c1e565b5f61112b82611c54565b5f61112b82611c83565b5f61112b82611cbb565b5f61112b82611cee565b5f61112b82611d1d565b5f61112b82611d4c565b5f61112b82611d7f565b5f61112b82611da4565b5f61112b82611ddb565b5f61112b82611e0a565b5f61112b82611e38565b5f61112b82611e6b565b5f61112b82611e9e565b5f61112b82611ecd565b5f61112b82611f00565b5f61112b82611f32565b5f61112b82611f61565b5f61112b82611f92565b5f61112b82611fc1565b80600781900b81146113e6576040805163327269a760e01b81526004810191909152602481018390526044015b60405180910390fd5b919050565b5f61ffff821115611419576040516306dfcc6560e41b815260106004820152602481018390526044016113dd565b5090565b80601c81900b81146113e65760405163327269a760e01b815260e86004820152602481018390526044016113dd565b5f69ffffffffffffffffffff821115611419576040516306dfcc6560e41b815260506004820152602481018390526044016113dd565b80600981900b81146113e65760405163327269a760e01b815260506004820152602481018390526044016113dd565b80601d81900b81146113e65760405163327269a760e01b815260f06004820152602481018390526044016113dd565b5f6cffffffffffffffffffffffffff821115611419576040516306dfcc6560e41b815260686004820152602481018390526044016113dd565b80600c81900b81146113e65760405163327269a760e01b815260686004820152602481018390526044016113dd565b5f63ffffffff821115611419576040516306dfcc6560e41b815260206004820152602481018390526044016113dd565b5f6001600160781b03821115611419576040516306dfcc6560e41b815260786004820152602481018390526044016113dd565b80601381900b81146113e65760405163327269a760e01b815260a06004820152602481018390526044016113dd565b80601b81900b81146113e65760405163327269a760e01b815260e06004820152602481018390526044016113dd565b5f62ffffff821115611419576040516306dfcc6560e41b815260186004820152602481018390526044016113dd565b80601081900b81146113e65760405163327269a760e01b815260886004820152602481018390526044016113dd565b5f6001600160e01b03821115611419576040516306dfcc6560e41b815260e06004820152602481018390526044016113dd565b5f6001600160801b03821115611419576040516306dfcc6560e41b815260806004820152602481018390526044016113dd565b5f6001600160ff1b038211156114195760405163123baf0360e11b8152600481018390526024016113dd565b80601781900b81146113e65760405163327269a760e01b815260c06004820152602481018390526044016113dd565b80601e81900b81146113e65760405163327269a760e01b815260f86004820152602481018390526044016113dd565b5f6001600160701b03821115611419576040516306dfcc6560e41b815260706004820152602481018390526044016113dd565b80600881900b81146113e65760405163327269a760e01b815260486004820152602481018390526044016113dd565b80601981900b81146113e65760405163327269a760e01b815260d06004820152602481018390526044016113dd565b5f6001600160c81b03821115611419576040516306dfcc6560e41b815260c86004820152602481018390526044016113dd565b5f6001600160f01b03821115611419576040516306dfcc6560e41b815260f06004820152602481018390526044016113dd565b80600a81900b81146113e65760405163327269a760e01b815260586004820152602481018390526044016113dd565b80601681900b81146113e65760405163327269a760e01b815260b86004820152602481018390526044016113dd565b80600681900b81146113e65760405163327269a760e01b815260386004820152602481018390526044016113dd565b80601281900b81146113e65760405163327269a760e01b815260986004820152602481018390526044016113dd565b80601a81900b81146113e65760405163327269a760e01b815260d86004820152602481018390526044016113dd565b5f68ffffffffffffffffff821115611419576040516306dfcc6560e41b815260486004820152602481018390526044016113dd565b80600481900b81146113e65760405163327269a760e01b815260286004820152602481018390526044016113dd565b5f6001600160f81b03821115611419576040516306dfcc6560e41b815260f86004820152602481018390526044016113dd565b5f60ff821115611419576040516306dfcc6560e41b815260086004820152602481018390526044016113dd565b5f66ffffffffffffff821115611419576040516306dfcc6560e41b815260386004820152602481018390526044016113dd565b80600281900b81146113e65760405163327269a760e01b815260186004820152602481018390526044016113dd565b5f6001600160881b03821115611419576040516306dfcc6560e41b815260886004820152602481018390526044016113dd565b5f6001600160c01b03821115611419576040516306dfcc6560e41b815260c06004820152602481018390526044016113dd565b5f6001600160e81b03821115611419576040516306dfcc6560e41b815260e86004820152602481018390526044016113dd565b80600381900b81146113e65760405163327269a760e01b815260206004820152602481018390526044016113dd565b80600e81900b81146113e65760405163327269a760e01b815260786004820152602481018390526044016113dd565b5f6001600160b01b03821115611419576040516306dfcc6560e41b815260b06004820152602481018390526044016113dd565b5f6001600160b81b03821115611419576040516306dfcc6560e41b815260b86004820152602481018390526044016113dd565b80600d81900b81146113e65760405163327269a760e01b815260706004820152602481018390526044016113dd565b5f6001600160d81b03821115611419576040516306dfcc6560e41b815260d86004820152602481018390526044016113dd565b5f67ffffffffffffffff82111561141957604080516306dfcc6560e41b81526004810191909152602481018390526044016113dd565b80600f81900b81146113e65760405163327269a760e01b815260806004820152602481018390526044016113dd565b5f6bffffffffffffffffffffffff821115611419576040516306dfcc6560e41b815260606004820152602481018390526044016113dd565b5f6001600160d01b03821115611419576040516306dfcc6560e41b815260d06004820152602481018390526044016113dd565b80600b81900b81146113e65760405163327269a760e01b815260606004820152602481018390526044016113dd565b80601581900b81146113e65760405163327269a760e01b815260b06004820152602481018390526044016113dd565b5f6001600160a01b03821115611419576040516306dfcc6560e41b815260a06004820152602481018390526044016113dd565b5f8082121561141957604051635467221960e11b8152600481018390526024016113dd565b5f6affffffffffffffffffffff821115611419576040516306dfcc6560e41b815260586004820152602481018390526044016113dd565b80601881900b81146113e65760405163327269a760e01b815260c86004820152602481018390526044016113dd565b805f81900b81146113e65760405163327269a760e01b815260086004820152602481018390526044016113dd565b5f6001600160901b03821115611419576040516306dfcc6560e41b815260906004820152602481018390526044016113dd565b5f6001600160a81b03821115611419576040516306dfcc6560e41b815260a86004820152602481018390526044016113dd565b80600181900b81146113e65760405163327269a760e01b815260106004820152602481018390526044016113dd565b5f6001600160981b03821115611419576040516306dfcc6560e41b815260986004820152602481018390526044016113dd565b5f65ffffffffffff821115611419576040516306dfcc6560e41b815260306004820152602481018390526044016113dd565b80601181900b81146113e65760405163327269a760e01b815260906004820152602481018390526044016113dd565b5f64ffffffffff821115611419576040516306dfcc6560e41b815260286004820152602481018390526044016113dd565b80601481900b81146113e65760405163327269a760e01b815260a86004820152602481018390526044016113dd565b80600581900b81146113e65760405163327269a760e01b815260306004820152602481018390526044016113dd565b5f60208284031215612000575f80fd5b5035919050565b5f60208284031215612017575f80fd5b81358015158114612026575f80fd5b939250505056fea264697066735822122017af69ae17bdf0e5bbe9a17e0bfe5c9d7b598477a07bf30cb22b4c451d8191e564736f6c63430008180033",
+  "deployedBytecode": "0x6080604052600436106103cb575f3560e01c8063940aa6e7116101f4578063d53eb8a411610113578063edab0f66116100a8578063f83a370c11610078578063f83a370c14611020578063f8e4d70014611056578063fa93069514611088578063fcbf8546146110bd578063ff7bb7b0146110ef575f80fd5b8063edab0f6614610f49578063edc5df2d14610f80578063ef44894114610fb7578063f714a32514610fe9575f80fd5b8063e2bbbef4116100e3578063e2bbbef414610e8c578063e41bac9b14610eab578063e447929c14610ee6578063ed9d0e3514610f18575f80fd5b8063d53eb8a414610dba578063dae839ba14610df1578063dc7b773a14610e23578063dedef39f14610e55575f80fd5b8063b87fa1b511610189578063bdd3ff5311610159578063bdd3ff5314610cdd578063cbf294c114610d14578063d2dcc34e14610d4c578063d32aa3c614610d7e575f80fd5b8063b87fa1b514610c0b578063ba1993f614610c3d578063bb34988014610c74578063bb6b14d414610cab575f80fd5b8063a511644a116101c4578063a511644a14610b34578063ad73dae614610b6b578063af71e11314610ba2578063b125016714610bd9575f80fd5b8063940aa6e714610a6357806398e34d3c14610a9a578063a084a66a14610acb578063a33675d614610b02575f80fd5b80633c41718b116102eb5780637f83f9cf116102805780638b4baa76116102505780638b4baa76146109755780638d4883e2146109a75780638f463032146109d9578063901d6177146109f857806390506c3b14610a31575f80fd5b80637f83f9cf146108a857806382c5114f146108df57806384d21abb14610911578063891c1cd414610943575f80fd5b80635d565c2c116102bb5780635d565c2c146107d657806362cacaee1461080d5780637c882bf01461083f5780637ecd8c4114610871575f80fd5b80633c41718b1461071c5780634467d1f8146107535780634b8d0dc5146107725780634fd16c61146107a4575f80fd5b8063211f44f3116103615780632bc92a6b116103315780632bc92a6b1461064d5780633158b57914610680578063342db739146106b2578063370ad0b5146106e5575f80fd5b8063211f44f31461057e57806324b0d17f146105b25780632aced3c4146105e95780632b3e28a91461061b575f80fd5b80630d8243b01161039c5780630d8243b0146104ab57806319b2f8c8146104dd5780631d4125991461050f57806320c85d661461054c575f80fd5b8062319523146103d657806308efd5181461040d578063094cbdb81461043f5780630b28c34a14610471575f80fd5b366103d257005b5f80fd5b3480156103e1575f80fd5b506103f56103f0366004611ff0565b611121565b60405160079190910b81526020015b60405180910390f35b348015610418575f80fd5b5061042c610427366004611ff0565b611131565b60405161ffff9091168152602001610404565b34801561044a575f80fd5b5061045e610459366004611ff0565b61113b565b604051601c9190910b8152602001610404565b34801561047c575f80fd5b5061049061048b366004611ff0565b611145565b60405169ffffffffffffffffffff9091168152602001610404565b3480156104b6575f80fd5b506104ca6104c5366004611ff0565b61114f565b60405160099190910b8152602001610404565b3480156104e8575f80fd5b506104fc6104f7366004611ff0565b611159565b604051601d9190910b8152602001610404565b34801561051a575f80fd5b5061052e610529366004611ff0565b611163565b6040516cffffffffffffffffffffffffff9091168152602001610404565b348015610557575f80fd5b5061056b610566366004611ff0565b61116d565b604051600c9190910b8152602001610404565b348015610589575f80fd5b5061059d610598366004611ff0565b611177565b60405163ffffffff9091168152602001610404565b3480156105bd575f80fd5b506105d16105cc366004611ff0565b611181565b6040516001600160781b039091168152602001610404565b3480156105f4575f80fd5b50610608610603366004611ff0565b61118b565b60405160139190910b8152602001610404565b348015610626575f80fd5b5061063a610635366004611ff0565b611195565b604051601b9190910b8152602001610404565b348015610658575f80fd5b5061066c610667366004611ff0565b61119f565b60405162ffffff9091168152602001610404565b34801561068b575f80fd5b5061069f61069a366004611ff0565b6111a9565b60405160109190910b8152602001610404565b3480156106bd575f80fd5b506106d76e1a185c991a185d0b595e1c1bdcd959608a1b81565b604051908152602001610404565b3480156106f0575f80fd5b506107046106ff366004611ff0565b6111b3565b6040516001600160e01b039091168152602001610404565b348015610727575f80fd5b5061073b610736366004611ff0565b6111bd565b6040516001600160801b039091168152602001610404565b34801561075e575f80fd5b506106d761076d366004611ff0565b6111c7565b34801561077d575f80fd5b5061079161078c366004611ff0565b6111d1565b60405160179190910b8152602001610404565b3480156107af575f80fd5b506107c36107be366004611ff0565b6111db565b604051601e9190910b8152602001610404565b3480156107e1575f80fd5b506107f56107f0366004611ff0565b6111e5565b6040516001600160701b039091168152602001610404565b348015610818575f80fd5b5061082c610827366004611ff0565b6111ef565b60405160089190910b8152602001610404565b34801561084a575f80fd5b5061085e610859366004611ff0565b6111f9565b60405160199190910b8152602001610404565b34801561087c575f80fd5b5061089061088b366004611ff0565b611203565b6040516001600160c81b039091168152602001610404565b3480156108b3575f80fd5b506108c76108c2366004611ff0565b61120d565b6040516001600160f01b039091168152602001610404565b3480156108ea575f80fd5b506108fe6108f9366004611ff0565b611217565b604051600a9190910b8152602001610404565b34801561091c575f80fd5b5061093061092b366004611ff0565b611221565b60405160169190910b8152602001610404565b34801561094e575f80fd5b5061096261095d366004611ff0565b61122b565b60405160069190910b8152602001610404565b348015610980575f80fd5b5061099461098f366004611ff0565b611235565b60405160129190910b8152602001610404565b3480156109b2575f80fd5b506109c66109c1366004611ff0565b61123f565b604051601a9190910b8152602001610404565b3480156109e4575f80fd5b506106d76109f3366004612007565b611249565b348015610a03575f80fd5b50610a17610a12366004611ff0565b611252565b60405168ffffffffffffffffff9091168152602001610404565b348015610a3c575f80fd5b50610a50610a4b366004611ff0565b61125c565b60405160049190910b8152602001610404565b348015610a6e575f80fd5b50610a82610a7d366004611ff0565b611266565b6040516001600160f81b039091168152602001610404565b348015610aa5575f80fd5b50610ab9610ab4366004611ff0565b611270565b60405160ff9091168152602001610404565b348015610ad6575f80fd5b50610aea610ae5366004611ff0565b61127a565b60405166ffffffffffffff9091168152602001610404565b348015610b0d575f80fd5b50610b21610b1c366004611ff0565b611284565b60405160029190910b8152602001610404565b348015610b3f575f80fd5b50610b53610b4e366004611ff0565b61128e565b6040516001600160881b039091168152602001610404565b348015610b76575f80fd5b50610b8a610b85366004611ff0565b611298565b6040516001600160c01b039091168152602001610404565b348015610bad575f80fd5b50610bc1610bbc366004611ff0565b6112a2565b6040516001600160e81b039091168152602001610404565b348015610be4575f80fd5b50610bf8610bf3366004611ff0565b6112ac565b60405160039190910b8152602001610404565b348015610c16575f80fd5b50610c2a610c25366004611ff0565b6112b6565b604051600e9190910b8152602001610404565b348015610c48575f80fd5b50610c5c610c57366004611ff0565b6112c0565b6040516001600160b01b039091168152602001610404565b348015610c7f575f80fd5b50610c93610c8e366004611ff0565b6112ca565b6040516001600160b81b039091168152602001610404565b348015610cb6575f80fd5b50610cca610cc5366004611ff0565b6112d4565b604051600d9190910b8152602001610404565b348015610ce8575f80fd5b50610cfc610cf7366004611ff0565b6112de565b6040516001600160d81b039091168152602001610404565b348015610d1f575f80fd5b50610d33610d2e366004611ff0565b6112e8565b60405167ffffffffffffffff9091168152602001610404565b348015610d57575f80fd5b50610d6b610d66366004611ff0565b6112f2565b604051600f9190910b8152602001610404565b348015610d89575f80fd5b50610d9d610d98366004611ff0565b6112fc565b6040516bffffffffffffffffffffffff9091168152602001610404565b348015610dc5575f80fd5b50610dd9610dd4366004611ff0565b611306565b6040516001600160d01b039091168152602001610404565b348015610dfc575f80fd5b50610e10610e0b366004611ff0565b611310565b604051600b9190910b8152602001610404565b348015610e2e575f80fd5b50610e42610e3d366004611ff0565b61131a565b60405160159190910b8152602001610404565b348015610e60575f80fd5b50610e74610e6f366004611ff0565b611324565b6040516001600160a01b039091168152602001610404565b348015610e97575f80fd5b506106d7610ea6366004611ff0565b61132e565b348015610eb6575f80fd5b50610eca610ec5366004611ff0565b611338565b6040516affffffffffffffffffffff9091168152602001610404565b348015610ef1575f80fd5b50610f05610f00366004611ff0565b611342565b60405160189190910b8152602001610404565b348015610f23575f80fd5b50610f37610f32366004611ff0565b61134c565b6040515f9190910b8152602001610404565b348015610f54575f80fd5b50610f68610f63366004611ff0565b611356565b6040516001600160901b039091168152602001610404565b348015610f8b575f80fd5b50610f9f610f9a366004611ff0565b611360565b6040516001600160a81b039091168152602001610404565b348015610fc2575f80fd5b50610fd6610fd1366004611ff0565b61136a565b60405160019190910b8152602001610404565b348015610ff4575f80fd5b50611008611003366004611ff0565b611374565b6040516001600160981b039091168152602001610404565b34801561102b575f80fd5b5061103f61103a366004611ff0565b61137e565b60405165ffffffffffff9091168152602001610404565b348015611061575f80fd5b50611075611070366004611ff0565b611388565b60405160119190910b8152602001610404565b348015611093575f80fd5b506110a76110a2366004611ff0565b611392565b60405164ffffffffff9091168152602001610404565b3480156110c8575f80fd5b506110dc6110d7366004611ff0565b61139c565b60405160149190910b8152602001610404565b3480156110fa575f80fd5b5061110e611109366004611ff0565b6113a6565b60405160059190910b8152602001610404565b5f61112b826113b0565b92915050565b5f61112b826113eb565b5f61112b8261141d565b5f61112b8261144c565b5f61112b82611482565b5f61112b826114b1565b5f61112b826114e0565b5f61112b82611519565b5f61112b82611548565b5f61112b82611578565b5f61112b826115ab565b5f61112b826115da565b5f61112b82611609565b5f61112b82611638565b5f61112b82611667565b5f61112b8261169a565b5f61112b826116cd565b5f61112b826116f9565b5f61112b82611728565b5f61112b82611757565b5f61112b8261178a565b5f61112b826117b9565b5f61112b826117e8565b5f61112b8261181b565b5f61112b8261184e565b5f61112b8261187d565b5f61112b826118ac565b5f61112b826118db565b5f61112b8261190a565b5f81151561112b565b5f61112b82611939565b5f61112b8261196e565b5f61112b8261199d565b5f61112b826119d0565b5f61112b826119fd565b5f61112b82611a30565b5f61112b82611a5f565b5f61112b82611a92565b5f61112b82611ac5565b5f61112b82611af8565b5f61112b82611b27565b5f61112b82611b56565b5f61112b82611b89565b5f61112b82611bbc565b5f61112b82611beb565b5f61112b82611c1e565b5f61112b82611c54565b5f61112b82611c83565b5f61112b82611cbb565b5f61112b82611cee565b5f61112b82611d1d565b5f61112b82611d4c565b5f61112b82611d7f565b5f61112b82611da4565b5f61112b82611ddb565b5f61112b82611e0a565b5f61112b82611e38565b5f61112b82611e6b565b5f61112b82611e9e565b5f61112b82611ecd565b5f61112b82611f00565b5f61112b82611f32565b5f61112b82611f61565b5f61112b82611f92565b5f61112b82611fc1565b80600781900b81146113e6576040805163327269a760e01b81526004810191909152602481018390526044015b60405180910390fd5b919050565b5f61ffff821115611419576040516306dfcc6560e41b815260106004820152602481018390526044016113dd565b5090565b80601c81900b81146113e65760405163327269a760e01b815260e86004820152602481018390526044016113dd565b5f69ffffffffffffffffffff821115611419576040516306dfcc6560e41b815260506004820152602481018390526044016113dd565b80600981900b81146113e65760405163327269a760e01b815260506004820152602481018390526044016113dd565b80601d81900b81146113e65760405163327269a760e01b815260f06004820152602481018390526044016113dd565b5f6cffffffffffffffffffffffffff821115611419576040516306dfcc6560e41b815260686004820152602481018390526044016113dd565b80600c81900b81146113e65760405163327269a760e01b815260686004820152602481018390526044016113dd565b5f63ffffffff821115611419576040516306dfcc6560e41b815260206004820152602481018390526044016113dd565b5f6001600160781b03821115611419576040516306dfcc6560e41b815260786004820152602481018390526044016113dd565b80601381900b81146113e65760405163327269a760e01b815260a06004820152602481018390526044016113dd565b80601b81900b81146113e65760405163327269a760e01b815260e06004820152602481018390526044016113dd565b5f62ffffff821115611419576040516306dfcc6560e41b815260186004820152602481018390526044016113dd565b80601081900b81146113e65760405163327269a760e01b815260886004820152602481018390526044016113dd565b5f6001600160e01b03821115611419576040516306dfcc6560e41b815260e06004820152602481018390526044016113dd565b5f6001600160801b03821115611419576040516306dfcc6560e41b815260806004820152602481018390526044016113dd565b5f6001600160ff1b038211156114195760405163123baf0360e11b8152600481018390526024016113dd565b80601781900b81146113e65760405163327269a760e01b815260c06004820152602481018390526044016113dd565b80601e81900b81146113e65760405163327269a760e01b815260f86004820152602481018390526044016113dd565b5f6001600160701b03821115611419576040516306dfcc6560e41b815260706004820152602481018390526044016113dd565b80600881900b81146113e65760405163327269a760e01b815260486004820152602481018390526044016113dd565b80601981900b81146113e65760405163327269a760e01b815260d06004820152602481018390526044016113dd565b5f6001600160c81b03821115611419576040516306dfcc6560e41b815260c86004820152602481018390526044016113dd565b5f6001600160f01b03821115611419576040516306dfcc6560e41b815260f06004820152602481018390526044016113dd565b80600a81900b81146113e65760405163327269a760e01b815260586004820152602481018390526044016113dd565b80601681900b81146113e65760405163327269a760e01b815260b86004820152602481018390526044016113dd565b80600681900b81146113e65760405163327269a760e01b815260386004820152602481018390526044016113dd565b80601281900b81146113e65760405163327269a760e01b815260986004820152602481018390526044016113dd565b80601a81900b81146113e65760405163327269a760e01b815260d86004820152602481018390526044016113dd565b5f68ffffffffffffffffff821115611419576040516306dfcc6560e41b815260486004820152602481018390526044016113dd565b80600481900b81146113e65760405163327269a760e01b815260286004820152602481018390526044016113dd565b5f6001600160f81b03821115611419576040516306dfcc6560e41b815260f86004820152602481018390526044016113dd565b5f60ff821115611419576040516306dfcc6560e41b815260086004820152602481018390526044016113dd565b5f66ffffffffffffff821115611419576040516306dfcc6560e41b815260386004820152602481018390526044016113dd565b80600281900b81146113e65760405163327269a760e01b815260186004820152602481018390526044016113dd565b5f6001600160881b03821115611419576040516306dfcc6560e41b815260886004820152602481018390526044016113dd565b5f6001600160c01b03821115611419576040516306dfcc6560e41b815260c06004820152602481018390526044016113dd565b5f6001600160e81b03821115611419576040516306dfcc6560e41b815260e86004820152602481018390526044016113dd565b80600381900b81146113e65760405163327269a760e01b815260206004820152602481018390526044016113dd565b80600e81900b81146113e65760405163327269a760e01b815260786004820152602481018390526044016113dd565b5f6001600160b01b03821115611419576040516306dfcc6560e41b815260b06004820152602481018390526044016113dd565b5f6001600160b81b03821115611419576040516306dfcc6560e41b815260b86004820152602481018390526044016113dd565b80600d81900b81146113e65760405163327269a760e01b815260706004820152602481018390526044016113dd565b5f6001600160d81b03821115611419576040516306dfcc6560e41b815260d86004820152602481018390526044016113dd565b5f67ffffffffffffffff82111561141957604080516306dfcc6560e41b81526004810191909152602481018390526044016113dd565b80600f81900b81146113e65760405163327269a760e01b815260806004820152602481018390526044016113dd565b5f6bffffffffffffffffffffffff821115611419576040516306dfcc6560e41b815260606004820152602481018390526044016113dd565b5f6001600160d01b03821115611419576040516306dfcc6560e41b815260d06004820152602481018390526044016113dd565b80600b81900b81146113e65760405163327269a760e01b815260606004820152602481018390526044016113dd565b80601581900b81146113e65760405163327269a760e01b815260b06004820152602481018390526044016113dd565b5f6001600160a01b03821115611419576040516306dfcc6560e41b815260a06004820152602481018390526044016113dd565b5f8082121561141957604051635467221960e11b8152600481018390526024016113dd565b5f6affffffffffffffffffffff821115611419576040516306dfcc6560e41b815260586004820152602481018390526044016113dd565b80601881900b81146113e65760405163327269a760e01b815260c86004820152602481018390526044016113dd565b805f81900b81146113e65760405163327269a760e01b815260086004820152602481018390526044016113dd565b5f6001600160901b03821115611419576040516306dfcc6560e41b815260906004820152602481018390526044016113dd565b5f6001600160a81b03821115611419576040516306dfcc6560e41b815260a86004820152602481018390526044016113dd565b80600181900b81146113e65760405163327269a760e01b815260106004820152602481018390526044016113dd565b5f6001600160981b03821115611419576040516306dfcc6560e41b815260986004820152602481018390526044016113dd565b5f65ffffffffffff821115611419576040516306dfcc6560e41b815260306004820152602481018390526044016113dd565b80601181900b81146113e65760405163327269a760e01b815260906004820152602481018390526044016113dd565b5f64ffffffffff821115611419576040516306dfcc6560e41b815260286004820152602481018390526044016113dd565b80601481900b81146113e65760405163327269a760e01b815260a86004820152602481018390526044016113dd565b80600581900b81146113e65760405163327269a760e01b815260306004820152602481018390526044016113dd565b5f60208284031215612000575f80fd5b5035919050565b5f60208284031215612017575f80fd5b81358015158114612026575f80fd5b939250505056fea264697066735822122017af69ae17bdf0e5bbe9a17e0bfe5c9d7b598477a07bf30cb22b4c451d8191e564736f6c63430008180033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

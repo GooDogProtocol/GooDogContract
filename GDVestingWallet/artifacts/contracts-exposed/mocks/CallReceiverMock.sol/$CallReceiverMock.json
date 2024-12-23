@@ -1,0 +1,180 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "$CallReceiverMock",
+  "sourceName": "contracts-exposed/mocks/CallReceiverMock.sol",
+  "abi": [
+    {
+      "inputs": [],
+      "stateMutability": "payable",
+      "type": "constructor"
+    },
+    {
+      "anonymous": false,
+      "inputs": [],
+      "name": "MockFunctionCalled",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "a",
+          "type": "uint256"
+        },
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "b",
+          "type": "uint256"
+        }
+      ],
+      "name": "MockFunctionCalledWithArgs",
+      "type": "event"
+    },
+    {
+      "inputs": [],
+      "name": "__hh_exposed_bytecode_marker",
+      "outputs": [
+        {
+          "internalType": "bytes32",
+          "name": "",
+          "type": "bytes32"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "mockFunction",
+      "outputs": [
+        {
+          "internalType": "string",
+          "name": "",
+          "type": "string"
+        }
+      ],
+      "stateMutability": "payable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "mockFunctionEmptyReturn",
+      "outputs": [],
+      "stateMutability": "payable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "mockFunctionNonPayable",
+      "outputs": [
+        {
+          "internalType": "string",
+          "name": "",
+          "type": "string"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "mockFunctionOutOfGas",
+      "outputs": [],
+      "stateMutability": "payable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "mockFunctionRevertsNoReason",
+      "outputs": [],
+      "stateMutability": "payable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "mockFunctionRevertsReason",
+      "outputs": [],
+      "stateMutability": "payable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "mockFunctionThrows",
+      "outputs": [],
+      "stateMutability": "payable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "a",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "b",
+          "type": "uint256"
+        }
+      ],
+      "name": "mockFunctionWithArgs",
+      "outputs": [
+        {
+          "internalType": "string",
+          "name": "",
+          "type": "string"
+        }
+      ],
+      "stateMutability": "payable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "bytes32",
+          "name": "slot",
+          "type": "bytes32"
+        },
+        {
+          "internalType": "bytes32",
+          "name": "value",
+          "type": "bytes32"
+        }
+      ],
+      "name": "mockFunctionWritesStorage",
+      "outputs": [
+        {
+          "internalType": "string",
+          "name": "",
+          "type": "string"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "mockStaticFunction",
+      "outputs": [
+        {
+          "internalType": "string",
+          "name": "",
+          "type": "string"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "stateMutability": "payable",
+      "type": "receive"
+    }
+  ],
+  "bytecode": "0x60806040526103fc806100115f395ff3fe60806040526004361061009d575f3560e01c80633e6fec04116100625780633e6fec041461011e578063425397a214610126578063a793ab4714610162578063c292d81c1461016a578063c8fc769614610172578063fdb27325146101a0575f80fd5b80630c034968146100a85780630f63e42c146100b25780632c81d638146100dc578063342db739146100e35780633bcfaa1414610116575f80fd5b366100a457005b5f80fd5b6100b06101b3565b005b3480156100bd575f80fd5b506100c66101ff565b6040516100d39190610322565b60405180910390f35b6100b05f80fd5b3480156100ee575f80fd5b506101086e1a185c991a185d0b595e1c1bdcd959608a1b81565b6040519081526020016100d3565b6100b061024b565b6100c66101ff565b348015610131575f80fd5b506100c661014036600461036e565b90556040805180820190915260068152650c1e0c4c8ccd60d21b602082015290565b6100b0610255565b6100b0610298565b34801561017d575f80fd5b506040805180820190915260068152650c1e0c4c8ccd60d21b60208201526100c6565b6100c66101ae36600461036e565b6102c2565b60405162461bcd60e51b815260206004820152601b60248201527f43616c6c52656365697665724d6f636b3a20726576657274696e670000000000604482015260640160405180910390fd5b6040516060907f52c66ed6ec9ca819cba26fe2b2650059270d8981b295af300187a964f54a8c23905f90a1506040805180820190915260068152650c1e0c4c8ccd60d21b602082015290565b61025361038e565b565b5f5b5f80546001810182559080527f290decd9548b62a8d60345a988386fc84ba6bc95484008f6362f93160ef3e56301819055610291816103a2565b9050610257565b6040517f52c66ed6ec9ca819cba26fe2b2650059270d8981b295af300187a964f54a8c23905f90a1565b60408051838152602081018390526060917f2b42b3c9af4187c86225f201736204c7597312c830cb5c2537dff6ef24b946ae910160405180910390a1506040805180820190915260068152650c1e0c4c8ccd60d21b602082015292915050565b5f602080835283518060208501525f5b8181101561034e57858101830151858201604001528201610332565b505f604082860101526040601f19601f8301168501019250505092915050565b5f806040838503121561037f575f80fd5b50508035926020909101359150565b634e487b7160e01b5f52600160045260245ffd5b5f600182016103bf57634e487b7160e01b5f52601160045260245ffd5b506001019056fea2646970667358221220c364fa7140db940d1702cc98e6854f4fd7a9aa55a012d686289aaa0473ea677264736f6c63430008180033",
+  "deployedBytecode": "0x60806040526004361061009d575f3560e01c80633e6fec04116100625780633e6fec041461011e578063425397a214610126578063a793ab4714610162578063c292d81c1461016a578063c8fc769614610172578063fdb27325146101a0575f80fd5b80630c034968146100a85780630f63e42c146100b25780632c81d638146100dc578063342db739146100e35780633bcfaa1414610116575f80fd5b366100a457005b5f80fd5b6100b06101b3565b005b3480156100bd575f80fd5b506100c66101ff565b6040516100d39190610322565b60405180910390f35b6100b05f80fd5b3480156100ee575f80fd5b506101086e1a185c991a185d0b595e1c1bdcd959608a1b81565b6040519081526020016100d3565b6100b061024b565b6100c66101ff565b348015610131575f80fd5b506100c661014036600461036e565b90556040805180820190915260068152650c1e0c4c8ccd60d21b602082015290565b6100b0610255565b6100b0610298565b34801561017d575f80fd5b506040805180820190915260068152650c1e0c4c8ccd60d21b60208201526100c6565b6100c66101ae36600461036e565b6102c2565b60405162461bcd60e51b815260206004820152601b60248201527f43616c6c52656365697665724d6f636b3a20726576657274696e670000000000604482015260640160405180910390fd5b6040516060907f52c66ed6ec9ca819cba26fe2b2650059270d8981b295af300187a964f54a8c23905f90a1506040805180820190915260068152650c1e0c4c8ccd60d21b602082015290565b61025361038e565b565b5f5b5f80546001810182559080527f290decd9548b62a8d60345a988386fc84ba6bc95484008f6362f93160ef3e56301819055610291816103a2565b9050610257565b6040517f52c66ed6ec9ca819cba26fe2b2650059270d8981b295af300187a964f54a8c23905f90a1565b60408051838152602081018390526060917f2b42b3c9af4187c86225f201736204c7597312c830cb5c2537dff6ef24b946ae910160405180910390a1506040805180820190915260068152650c1e0c4c8ccd60d21b602082015292915050565b5f602080835283518060208501525f5b8181101561034e57858101830151858201604001528201610332565b505f604082860101526040601f19601f8301168501019250505092915050565b5f806040838503121561037f575f80fd5b50508035926020909101359150565b634e487b7160e01b5f52600160045260245ffd5b5f600182016103bf57634e487b7160e01b5f52601160045260245ffd5b506001019056fea2646970667358221220c364fa7140db940d1702cc98e6854f4fd7a9aa55a012d686289aaa0473ea677264736f6c63430008180033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

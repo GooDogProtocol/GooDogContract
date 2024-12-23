@@ -1,0 +1,263 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "$SlotDerivation",
+  "sourceName": "contracts-exposed/utils/SlotDerivation.sol",
+  "abi": [
+    {
+      "inputs": [],
+      "stateMutability": "payable",
+      "type": "constructor"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "bytes32",
+          "name": "slot",
+          "type": "bytes32"
+        }
+      ],
+      "name": "$deriveArray",
+      "outputs": [
+        {
+          "internalType": "bytes32",
+          "name": "result",
+          "type": "bytes32"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "bytes32",
+          "name": "slot",
+          "type": "bytes32"
+        },
+        {
+          "internalType": "int256",
+          "name": "key",
+          "type": "int256"
+        }
+      ],
+      "name": "$deriveMapping",
+      "outputs": [
+        {
+          "internalType": "bytes32",
+          "name": "result",
+          "type": "bytes32"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "bytes32",
+          "name": "slot",
+          "type": "bytes32"
+        },
+        {
+          "internalType": "string",
+          "name": "key",
+          "type": "string"
+        }
+      ],
+      "name": "$deriveMapping",
+      "outputs": [
+        {
+          "internalType": "bytes32",
+          "name": "result",
+          "type": "bytes32"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "bytes32",
+          "name": "slot",
+          "type": "bytes32"
+        },
+        {
+          "internalType": "address",
+          "name": "key",
+          "type": "address"
+        }
+      ],
+      "name": "$deriveMapping",
+      "outputs": [
+        {
+          "internalType": "bytes32",
+          "name": "result",
+          "type": "bytes32"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "bytes32",
+          "name": "slot",
+          "type": "bytes32"
+        },
+        {
+          "internalType": "bytes32",
+          "name": "key",
+          "type": "bytes32"
+        }
+      ],
+      "name": "$deriveMapping",
+      "outputs": [
+        {
+          "internalType": "bytes32",
+          "name": "result",
+          "type": "bytes32"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "bytes32",
+          "name": "slot",
+          "type": "bytes32"
+        },
+        {
+          "internalType": "bool",
+          "name": "key",
+          "type": "bool"
+        }
+      ],
+      "name": "$deriveMapping",
+      "outputs": [
+        {
+          "internalType": "bytes32",
+          "name": "result",
+          "type": "bytes32"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "bytes32",
+          "name": "slot",
+          "type": "bytes32"
+        },
+        {
+          "internalType": "bytes",
+          "name": "key",
+          "type": "bytes"
+        }
+      ],
+      "name": "$deriveMapping",
+      "outputs": [
+        {
+          "internalType": "bytes32",
+          "name": "result",
+          "type": "bytes32"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "bytes32",
+          "name": "slot",
+          "type": "bytes32"
+        },
+        {
+          "internalType": "uint256",
+          "name": "key",
+          "type": "uint256"
+        }
+      ],
+      "name": "$deriveMapping",
+      "outputs": [
+        {
+          "internalType": "bytes32",
+          "name": "result",
+          "type": "bytes32"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "string",
+          "name": "namespace",
+          "type": "string"
+        }
+      ],
+      "name": "$erc7201Slot",
+      "outputs": [
+        {
+          "internalType": "bytes32",
+          "name": "slot",
+          "type": "bytes32"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "bytes32",
+          "name": "slot",
+          "type": "bytes32"
+        },
+        {
+          "internalType": "uint256",
+          "name": "pos",
+          "type": "uint256"
+        }
+      ],
+      "name": "$offset",
+      "outputs": [
+        {
+          "internalType": "bytes32",
+          "name": "result",
+          "type": "bytes32"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "__hh_exposed_bytecode_marker",
+      "outputs": [
+        {
+          "internalType": "bytes32",
+          "name": "",
+          "type": "bytes32"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "stateMutability": "payable",
+      "type": "receive"
+    }
+  ],
+  "bytecode": "0x6080604052610461806100115f395ff3fe60806040526004361061009d575f3560e01c80635744545111610062578063574454511461015b5780635a1bf111146100a85780635cb775c31461017a5780639df851361461019f578063f30ab72d146100f8578063fe1715ed146100a8575f80fd5b80630d7cf24e146100a85780630f227954146100d95780632c2d1823146100f8578063342db739146101175780633980935b1461013c575f80fd5b366100a457005b5f80fd5b3480156100b3575f80fd5b506100c76100c23660046102c8565b6101be565b60405190815260200160405180910390f35b3480156100e4575f80fd5b506100c76100f33660046102c8565b6101d3565b348015610103575f80fd5b506100c761011236600461032d565b6101dc565b348015610122575f80fd5b506100c76e1a185c991a185d0b595e1c1bdcd959608a1b81565b348015610147575f80fd5b506100c7610156366004610375565b610224565b348015610166575f80fd5b506100c76101753660046103b4565b610263565b348015610185575f80fd5b506100c76101943660046103ed565b5f9081526020902090565b3480156101aa575f80fd5b506100c76101b9366004610404565b61027f565b5f8181526020839052604081205b9392505050565b5f8183016101cc565b5f61021c8484848080601f0160208091040260200160405190810160405280939291908181526020018383808284375f9201919091525061029492505050565b949350505050565b5f6101cc83838080601f0160208091040260200160405190810160405280939291908181526020018383808284375f920191909152506102b192505050565b6001600160a01b0381165f9081526020839052604081206101cc565b8015155f9081526020839052604081206101cc565b805160208183018101805194815291810192019190912091905290565b80516020918201205f19015f9081522060ff191690565b5f80604083850312156102d9575f80fd5b50508035926020909101359150565b5f8083601f8401126102f8575f80fd5b50813567ffffffffffffffff81111561030f575f80fd5b602083019150836020828501011115610326575f80fd5b9250929050565b5f805f6040848603121561033f575f80fd5b83359250602084013567ffffffffffffffff81111561035c575f80fd5b610368868287016102e8565b9497909650939450505050565b5f8060208385031215610386575f80fd5b823567ffffffffffffffff81111561039c575f80fd5b6103a8858286016102e8565b90969095509350505050565b5f80604083850312156103c5575f80fd5b8235915060208301356001600160a01b03811681146103e2575f80fd5b809150509250929050565b5f602082840312156103fd575f80fd5b5035919050565b5f8060408385031215610415575f80fd5b82359150602083013580151581146103e2575f80fdfea26469706673582212206f5b0679b4b209c7568290f935c76f81b853994aa967e0c1837e358b8020d37a64736f6c63430008180033",
+  "deployedBytecode": "0x60806040526004361061009d575f3560e01c80635744545111610062578063574454511461015b5780635a1bf111146100a85780635cb775c31461017a5780639df851361461019f578063f30ab72d146100f8578063fe1715ed146100a8575f80fd5b80630d7cf24e146100a85780630f227954146100d95780632c2d1823146100f8578063342db739146101175780633980935b1461013c575f80fd5b366100a457005b5f80fd5b3480156100b3575f80fd5b506100c76100c23660046102c8565b6101be565b60405190815260200160405180910390f35b3480156100e4575f80fd5b506100c76100f33660046102c8565b6101d3565b348015610103575f80fd5b506100c761011236600461032d565b6101dc565b348015610122575f80fd5b506100c76e1a185c991a185d0b595e1c1bdcd959608a1b81565b348015610147575f80fd5b506100c7610156366004610375565b610224565b348015610166575f80fd5b506100c76101753660046103b4565b610263565b348015610185575f80fd5b506100c76101943660046103ed565b5f9081526020902090565b3480156101aa575f80fd5b506100c76101b9366004610404565b61027f565b5f8181526020839052604081205b9392505050565b5f8183016101cc565b5f61021c8484848080601f0160208091040260200160405190810160405280939291908181526020018383808284375f9201919091525061029492505050565b949350505050565b5f6101cc83838080601f0160208091040260200160405190810160405280939291908181526020018383808284375f920191909152506102b192505050565b6001600160a01b0381165f9081526020839052604081206101cc565b8015155f9081526020839052604081206101cc565b805160208183018101805194815291810192019190912091905290565b80516020918201205f19015f9081522060ff191690565b5f80604083850312156102d9575f80fd5b50508035926020909101359150565b5f8083601f8401126102f8575f80fd5b50813567ffffffffffffffff81111561030f575f80fd5b602083019150836020828501011115610326575f80fd5b9250929050565b5f805f6040848603121561033f575f80fd5b83359250602084013567ffffffffffffffff81111561035c575f80fd5b610368868287016102e8565b9497909650939450505050565b5f8060208385031215610386575f80fd5b823567ffffffffffffffff81111561039c575f80fd5b6103a8858286016102e8565b90969095509350505050565b5f80604083850312156103c5575f80fd5b8235915060208301356001600160a01b03811681146103e2575f80fd5b809150509250929050565b5f602082840312156103fd575f80fd5b5035919050565b5f8060408385031215610415575f80fd5b82359150602083013580151581146103e2575f80fdfea26469706673582212206f5b0679b4b209c7568290f935c76f81b853994aa967e0c1837e358b8020d37a64736f6c63430008180033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

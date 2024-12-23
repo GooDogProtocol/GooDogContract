@@ -1,0 +1,153 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "$SignedMath",
+  "sourceName": "contracts-exposed/utils/math/SignedMath.sol",
+  "abi": [
+    {
+      "inputs": [],
+      "stateMutability": "payable",
+      "type": "constructor"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "int256",
+          "name": "n",
+          "type": "int256"
+        }
+      ],
+      "name": "$abs",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "ret0",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "int256",
+          "name": "a",
+          "type": "int256"
+        },
+        {
+          "internalType": "int256",
+          "name": "b",
+          "type": "int256"
+        }
+      ],
+      "name": "$average",
+      "outputs": [
+        {
+          "internalType": "int256",
+          "name": "ret0",
+          "type": "int256"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "int256",
+          "name": "a",
+          "type": "int256"
+        },
+        {
+          "internalType": "int256",
+          "name": "b",
+          "type": "int256"
+        }
+      ],
+      "name": "$max",
+      "outputs": [
+        {
+          "internalType": "int256",
+          "name": "ret0",
+          "type": "int256"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "int256",
+          "name": "a",
+          "type": "int256"
+        },
+        {
+          "internalType": "int256",
+          "name": "b",
+          "type": "int256"
+        }
+      ],
+      "name": "$min",
+      "outputs": [
+        {
+          "internalType": "int256",
+          "name": "ret0",
+          "type": "int256"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "bool",
+          "name": "condition",
+          "type": "bool"
+        },
+        {
+          "internalType": "int256",
+          "name": "a",
+          "type": "int256"
+        },
+        {
+          "internalType": "int256",
+          "name": "b",
+          "type": "int256"
+        }
+      ],
+      "name": "$ternary",
+      "outputs": [
+        {
+          "internalType": "int256",
+          "name": "ret0",
+          "type": "int256"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "__hh_exposed_bytecode_marker",
+      "outputs": [
+        {
+          "internalType": "bytes32",
+          "name": "",
+          "type": "bytes32"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "stateMutability": "payable",
+      "type": "receive"
+    }
+  ],
+  "bytecode": "0x608060405261028c806100115f395ff3fe608060405260043610610057575f3560e01c80631f116e0014610062578063342db739146100935780633f07e553146100b85780636d268b8d146100d7578063d0d65cde146100f6578063e6cd311b14610115575f80fd5b3661005e57005b5f80fd5b34801561006d575f80fd5b5061008161007c3660046101b6565b61013b565b60405190815260200160405180910390f35b34801561009e575f80fd5b506100816e1a185c991a185d0b595e1c1bdcd959608a1b81565b3480156100c3575f80fd5b506100816100d23660046101b6565b61014d565b3480156100e2575f80fd5b506100816100f13660046101d6565b610162565b348015610101575f80fd5b506100816101103660046101b6565b610175565b348015610120575f80fd5b5061008161012f36600461020c565b60ff81901d9081011890565b5f6101468383610180565b9392505050565b5f61014683835f828218828413028218610146565b5f8315158284180282185b949350505050565b5f610146838361018f565b5f828218828412028218610146565b5f806101a284841860011d858516610223565b905061016d60ff82901c8585181682610223565b5f80604083850312156101c7575f80fd5b50508035926020909101359150565b5f805f606084860312156101e8575f80fd5b833580151581146101f7575f80fd5b95602085013595506040909401359392505050565b5f6020828403121561021c575f80fd5b5035919050565b8082018281125f83128015821682158216171561024e57634e487b7160e01b5f52601160045260245ffd5b50509291505056fea2646970667358221220be2ecdfdda623fb1fcba39e0ec261354a19ed2d9f531b3a9465a07be3906b0ac64736f6c63430008180033",
+  "deployedBytecode": "0x608060405260043610610057575f3560e01c80631f116e0014610062578063342db739146100935780633f07e553146100b85780636d268b8d146100d7578063d0d65cde146100f6578063e6cd311b14610115575f80fd5b3661005e57005b5f80fd5b34801561006d575f80fd5b5061008161007c3660046101b6565b61013b565b60405190815260200160405180910390f35b34801561009e575f80fd5b506100816e1a185c991a185d0b595e1c1bdcd959608a1b81565b3480156100c3575f80fd5b506100816100d23660046101b6565b61014d565b3480156100e2575f80fd5b506100816100f13660046101d6565b610162565b348015610101575f80fd5b506100816101103660046101b6565b610175565b348015610120575f80fd5b5061008161012f36600461020c565b60ff81901d9081011890565b5f6101468383610180565b9392505050565b5f61014683835f828218828413028218610146565b5f8315158284180282185b949350505050565b5f610146838361018f565b5f828218828412028218610146565b5f806101a284841860011d858516610223565b905061016d60ff82901c8585181682610223565b5f80604083850312156101c7575f80fd5b50508035926020909101359150565b5f805f606084860312156101e8575f80fd5b833580151581146101f7575f80fd5b95602085013595506040909401359392505050565b5f6020828403121561021c575f80fd5b5035919050565b8082018281125f83128015821682158216171561024e57634e487b7160e01b5f52601160045260245ffd5b50509291505056fea2646970667358221220be2ecdfdda623fb1fcba39e0ec261354a19ed2d9f531b3a9465a07be3906b0ac64736f6c63430008180033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

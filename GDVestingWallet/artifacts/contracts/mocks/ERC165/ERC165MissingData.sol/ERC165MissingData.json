@@ -1,0 +1,24 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "ERC165MissingData",
+  "sourceName": "contracts/mocks/ERC165/ERC165MissingData.sol",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "bytes4",
+          "name": "interfaceId",
+          "type": "bytes4"
+        }
+      ],
+      "name": "supportsInterface",
+      "outputs": [],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x6080604052348015600e575f80fd5b50609c8061001b5f395ff3fe6080604052348015600e575f80fd5b50600436106026575f3560e01c806301ffc9a714602a575b5f80fd5b60386035366004603a565b50565b005b5f602082840312156049575f80fd5b81356001600160e01b031981168114605f575f80fd5b939250505056fea2646970667358221220365de95958afb2b75ceca8b76491ada770e216c5939b5e57d02e80cad73149f064736f6c63430008180033",
+  "deployedBytecode": "0x6080604052348015600e575f80fd5b50600436106026575f3560e01c806301ffc9a714602a575b5f80fd5b60386035366004603a565b50565b005b5f602082840312156049575f80fd5b81356001600160e01b031981168114605f575f80fd5b939250505056fea2646970667358221220365de95958afb2b75ceca8b76491ada770e216c5939b5e57d02e80cad73149f064736f6c63430008180033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

@@ -1,0 +1,51 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "$ReentrancyGuardTransient",
+  "sourceName": "contracts-exposed/utils/ReentrancyGuardTransient.sol",
+  "abi": [
+    {
+      "inputs": [],
+      "stateMutability": "payable",
+      "type": "constructor"
+    },
+    {
+      "inputs": [],
+      "name": "ReentrancyGuardReentrantCall",
+      "type": "error"
+    },
+    {
+      "inputs": [],
+      "name": "$_reentrancyGuardEntered",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "ret0",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "__hh_exposed_bytecode_marker",
+      "outputs": [
+        {
+          "internalType": "bytes32",
+          "name": "",
+          "type": "bytes32"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "stateMutability": "payable",
+      "type": "receive"
+    }
+  ],
+  "bytecode": "0x608060405260d9806100105f395ff3fe6080604052600436106028575f3560e01c8063342db739146032578063d67f250a146068575f80fd5b36602e57005b5f80fd5b348015603c575f80fd5b5060556e1a185c991a185d0b595e1c1bdcd959608a1b81565b6040519081526020015b60405180910390f35b3480156072575f80fd5b506040517f9b779b17422d0df92223018b32b4d1fa46e071723d6817e2486d003becc55f005c15158152602001605f56fea26469706673582212200c09be44edb944a7f35f49a7f81cab32966382038901fd9a1b3f30e0daa07f4464736f6c63430008180033",
+  "deployedBytecode": "0x6080604052600436106028575f3560e01c8063342db739146032578063d67f250a146068575f80fd5b36602e57005b5f80fd5b348015603c575f80fd5b5060556e1a185c991a185d0b595e1c1bdcd959608a1b81565b6040519081526020015b60405180910390f35b3480156072575f80fd5b506040517f9b779b17422d0df92223018b32b4d1fa46e071723d6817e2486d003becc55f005c15158152602001605f56fea26469706673582212200c09be44edb944a7f35f49a7f81cab32966382038901fd9a1b3f30e0daa07f4464736f6c63430008180033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

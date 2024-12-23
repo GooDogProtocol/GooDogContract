@@ -1,0 +1,166 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "$MigratableMockV2",
+  "sourceName": "contracts-exposed/mocks/SingleInheritanceInitializableMocks.sol",
+  "abi": [
+    {
+      "inputs": [],
+      "stateMutability": "payable",
+      "type": "constructor"
+    },
+    {
+      "inputs": [],
+      "name": "InvalidInitialization",
+      "type": "error"
+    },
+    {
+      "inputs": [],
+      "name": "NotInitializing",
+      "type": "error"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "internalType": "uint64",
+          "name": "version",
+          "type": "uint64"
+        }
+      ],
+      "name": "Initialized",
+      "type": "event"
+    },
+    {
+      "inputs": [],
+      "name": "$_checkInitializing",
+      "outputs": [],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "$_disableInitializers",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "$_getInitializedVersion",
+      "outputs": [
+        {
+          "internalType": "uint64",
+          "name": "ret0",
+          "type": "uint64"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "$_isInitializing",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "ret0",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "$_migratedV2",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "__hh_exposed_bytecode_marker",
+      "outputs": [
+        {
+          "internalType": "bytes32",
+          "name": "",
+          "type": "bytes32"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "value",
+          "type": "uint256"
+        }
+      ],
+      "name": "initialize",
+      "outputs": [],
+      "stateMutability": "payable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "value",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "anotherValue",
+          "type": "uint256"
+        }
+      ],
+      "name": "migrate",
+      "outputs": [],
+      "stateMutability": "payable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "x",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "y",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "stateMutability": "payable",
+      "type": "receive"
+    }
+  ],
+  "bytecode": "0x608060405261047a806100115f395ff3fe608060405260043610610092575f3560e01c8063a56dfe4a11610057578063a56dfe4a1461014e578063c9eb057114610163578063f5f1bec01461018d578063fa171c92146101a1578063fe4b84df146101b5575f80fd5b80630c55699c1461009d578063342db739146100c45780633e54bacb146100e95780634fd5303d146100fe578063946a20441461012b575f80fd5b3661009957005b5f80fd5b3480156100a8575f80fd5b506100b15f5481565b6040519081526020015b60405180910390f35b3480156100cf575f80fd5b506100b16e1a185c991a185d0b595e1c1bdcd959608a1b81565b6100fc6100f73660046103ed565b6101c8565b005b348015610109575f80fd5b506101126101ed565b60405167ffffffffffffffff90911681526020016100bb565b348015610136575f80fd5b5060015460ff165b60405190151581526020016100bb565b348015610159575f80fd5b506100b160025481565b34801561016e575f80fd5b505f8051602061042583398151915254600160401b900460ff1661013e565b348015610198575f80fd5b506100fc610212565b3480156101ac575f80fd5b506100fc61021c565b6100fc6101c336600461040d565b610224565b60015460ff16156101d7575f80fd5b5f919091556002556001805460ff191681179055565b5f61020d5f805160206104258339815191525467ffffffffffffffff1690565b905090565b61021a61031a565b565b61021a6103b7565b5f805160206104258339815191528054600160401b810460ff16159067ffffffffffffffff165f811580156102565750825b90505f8267ffffffffffffffff1660011480156102725750303b155b905081158015610280575080155b1561029e5760405163f92ee8a960e01b815260040160405180910390fd5b845467ffffffffffffffff1916600117855583156102c857845460ff60401b1916600160401b1785555b5f869055831561031257845460ff60401b19168555604051600181527fc7f505b2f371ae2175ee4913f4499e1f2633a7b5936321eed1cdaeb6115181d29060200160405180910390a15b505050505050565b5f805160206104258339815191528054600160401b900460ff16156103525760405163f92ee8a960e01b815260040160405180910390fd5b805467ffffffffffffffff908116146103b457805467ffffffffffffffff191667ffffffffffffffff90811782556040519081527fc7f505b2f371ae2175ee4913f4499e1f2633a7b5936321eed1cdaeb6115181d29060200160405180910390a15b50565b5f8051602061042583398151915254600160401b900460ff1661021a57604051631afcd79f60e31b815260040160405180910390fd5b5f80604083850312156103fe575f80fd5b50508035926020909101359150565b5f6020828403121561041d575f80fd5b503591905056fef0c57e16840df040f15088dc2f81fe391c3923bec73e23a9662efc9c229c6a00a2646970667358221220efaab7cfd02a8a9acf235a52bb16472f93c4491afdb0c2493f9c069b24d8105c64736f6c63430008180033",
+  "deployedBytecode": "0x608060405260043610610092575f3560e01c8063a56dfe4a11610057578063a56dfe4a1461014e578063c9eb057114610163578063f5f1bec01461018d578063fa171c92146101a1578063fe4b84df146101b5575f80fd5b80630c55699c1461009d578063342db739146100c45780633e54bacb146100e95780634fd5303d146100fe578063946a20441461012b575f80fd5b3661009957005b5f80fd5b3480156100a8575f80fd5b506100b15f5481565b6040519081526020015b60405180910390f35b3480156100cf575f80fd5b506100b16e1a185c991a185d0b595e1c1bdcd959608a1b81565b6100fc6100f73660046103ed565b6101c8565b005b348015610109575f80fd5b506101126101ed565b60405167ffffffffffffffff90911681526020016100bb565b348015610136575f80fd5b5060015460ff165b60405190151581526020016100bb565b348015610159575f80fd5b506100b160025481565b34801561016e575f80fd5b505f8051602061042583398151915254600160401b900460ff1661013e565b348015610198575f80fd5b506100fc610212565b3480156101ac575f80fd5b506100fc61021c565b6100fc6101c336600461040d565b610224565b60015460ff16156101d7575f80fd5b5f919091556002556001805460ff191681179055565b5f61020d5f805160206104258339815191525467ffffffffffffffff1690565b905090565b61021a61031a565b565b61021a6103b7565b5f805160206104258339815191528054600160401b810460ff16159067ffffffffffffffff165f811580156102565750825b90505f8267ffffffffffffffff1660011480156102725750303b155b905081158015610280575080155b1561029e5760405163f92ee8a960e01b815260040160405180910390fd5b845467ffffffffffffffff1916600117855583156102c857845460ff60401b1916600160401b1785555b5f869055831561031257845460ff60401b19168555604051600181527fc7f505b2f371ae2175ee4913f4499e1f2633a7b5936321eed1cdaeb6115181d29060200160405180910390a15b505050505050565b5f805160206104258339815191528054600160401b900460ff16156103525760405163f92ee8a960e01b815260040160405180910390fd5b805467ffffffffffffffff908116146103b457805467ffffffffffffffff191667ffffffffffffffff90811782556040519081527fc7f505b2f371ae2175ee4913f4499e1f2633a7b5936321eed1cdaeb6115181d29060200160405180910390a15b50565b5f8051602061042583398151915254600160401b900460ff1661021a57604051631afcd79f60e31b815260040160405180910390fd5b5f80604083850312156103fe575f80fd5b50508035926020909101359150565b5f6020828403121561041d575f80fd5b503591905056fef0c57e16840df040f15088dc2f81fe391c3923bec73e23a9662efc9c229c6a00a2646970667358221220efaab7cfd02a8a9acf235a52bb16472f93c4491afdb0c2493f9c069b24d8105c64736f6c63430008180033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

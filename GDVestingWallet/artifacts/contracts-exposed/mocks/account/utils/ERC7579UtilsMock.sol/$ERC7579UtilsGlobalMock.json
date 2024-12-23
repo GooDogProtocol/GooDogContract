@@ -1,0 +1,129 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "$ERC7579UtilsGlobalMock",
+  "sourceName": "contracts-exposed/mocks/account/utils/ERC7579UtilsMock.sol",
+  "abi": [
+    {
+      "inputs": [],
+      "stateMutability": "payable",
+      "type": "constructor"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "CallType",
+          "name": "callType1",
+          "type": "bytes1"
+        },
+        {
+          "internalType": "CallType",
+          "name": "callType2",
+          "type": "bytes1"
+        }
+      ],
+      "name": "$eqCallTypeGlobal",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "ret0",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "ExecType",
+          "name": "execType1",
+          "type": "bytes1"
+        },
+        {
+          "internalType": "ExecType",
+          "name": "execType2",
+          "type": "bytes1"
+        }
+      ],
+      "name": "$eqExecTypeGlobal",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "ret0",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "ModePayload",
+          "name": "modePayload1",
+          "type": "bytes22"
+        },
+        {
+          "internalType": "ModePayload",
+          "name": "modePayload2",
+          "type": "bytes22"
+        }
+      ],
+      "name": "$eqModePayloadGlobal",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "ret0",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "ModeSelector",
+          "name": "modeSelector1",
+          "type": "bytes4"
+        },
+        {
+          "internalType": "ModeSelector",
+          "name": "modeSelector2",
+          "type": "bytes4"
+        }
+      ],
+      "name": "$eqModeSelectorGlobal",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "ret0",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "__hh_exposed_bytecode_marker",
+      "outputs": [
+        {
+          "internalType": "bytes32",
+          "name": "",
+          "type": "bytes32"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "stateMutability": "payable",
+      "type": "receive"
+    }
+  ],
+  "bytecode": "0x608060405261027d806100115f395ff3fe60806040526004361061004c575f3560e01c8063342db7391461005757806339cf22861461008f57806355127d87146100be5780637a1c4ae6146100dd578063bcbb83bf146100dd575f80fd5b3661005357005b5f80fd5b348015610062575f80fd5b5061007c6e1a185c991a185d0b595e1c1bdcd959608a1b81565b6040519081526020015b60405180910390f35b34801561009a575f80fd5b506100ae6100a9366004610185565b6100fc565b6040519015158152602001610086565b3480156100c9575f80fd5b506100ae6100d83660046101d0565b61010e565b3480156100e8575f80fd5b506100ae6100f7366004610210565b610119565b5f6101078383610124565b9392505050565b5f610107838361013a565b5f6101078383610153565b5f6001600160e01b031980841690831614610107565b5f69ffffffffffffffffffff1980841690831614610107565b5f6001600160f81b031980841690831614610107565b80356001600160e01b031981168114610180575f80fd5b919050565b5f8060408385031215610196575f80fd5b61019f83610169565b91506101ad60208401610169565b90509250929050565b803569ffffffffffffffffffff1981168114610180575f80fd5b5f80604083850312156101e1575f80fd5b6101ea836101b6565b91506101ad602084016101b6565b6001600160f81b03198116811461020d575f80fd5b50565b5f8060408385031215610221575f80fd5b823561022c816101f8565b9150602083013561023c816101f8565b80915050925092905056fea2646970667358221220e9bc06cd75255c10e3d7d417f126515b2e26477d1a12d10e9b342b0e015577c264736f6c63430008180033",
+  "deployedBytecode": "0x60806040526004361061004c575f3560e01c8063342db7391461005757806339cf22861461008f57806355127d87146100be5780637a1c4ae6146100dd578063bcbb83bf146100dd575f80fd5b3661005357005b5f80fd5b348015610062575f80fd5b5061007c6e1a185c991a185d0b595e1c1bdcd959608a1b81565b6040519081526020015b60405180910390f35b34801561009a575f80fd5b506100ae6100a9366004610185565b6100fc565b6040519015158152602001610086565b3480156100c9575f80fd5b506100ae6100d83660046101d0565b61010e565b3480156100e8575f80fd5b506100ae6100f7366004610210565b610119565b5f6101078383610124565b9392505050565b5f610107838361013a565b5f6101078383610153565b5f6001600160e01b031980841690831614610107565b5f69ffffffffffffffffffff1980841690831614610107565b5f6001600160f81b031980841690831614610107565b80356001600160e01b031981168114610180575f80fd5b919050565b5f8060408385031215610196575f80fd5b61019f83610169565b91506101ad60208401610169565b90509250929050565b803569ffffffffffffffffffff1981168114610180575f80fd5b5f80604083850312156101e1575f80fd5b6101ea836101b6565b91506101ad602084016101b6565b6001600160f81b03198116811461020d575f80fd5b50565b5f8060408385031215610221575f80fd5b823561022c816101f8565b9150602083013561023c816101f8565b80915050925092905056fea2646970667358221220e9bc06cd75255c10e3d7d417f126515b2e26477d1a12d10e9b342b0e015577c264736f6c63430008180033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

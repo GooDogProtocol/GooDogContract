@@ -1,0 +1,66 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "$NonUpgradeableMock",
+  "sourceName": "contracts-exposed/mocks/proxy/UUPSUpgradeableMock.sol",
+  "abi": [
+    {
+      "inputs": [],
+      "stateMutability": "payable",
+      "type": "constructor"
+    },
+    {
+      "inputs": [],
+      "name": "$_counter",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "__hh_exposed_bytecode_marker",
+      "outputs": [
+        {
+          "internalType": "bytes32",
+          "name": "",
+          "type": "bytes32"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "current",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "increment",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "stateMutability": "payable",
+      "type": "receive"
+    }
+  ],
+  "bytecode": "0x6080604052610109806100115f395ff3fe608060405260043610603c575f3560e01c8063342db7391460465780637e10e8d614607b5780639fa6a6e314607b578063d09de08a14608c575f80fd5b36604257005b5f80fd5b3480156050575f80fd5b5060696e1a185c991a185d0b595e1c1bdcd959608a1b81565b60405190815260200160405180910390f35b3480156085575f80fd5b505f546069565b3480156096575f80fd5b50609d609f565b005b5f80815460aa9060b0565b90915550565b5f6001820160cc57634e487b7160e01b5f52601160045260245ffd5b506001019056fea26469706673582212207425b0923ef27f6986af3fef4ca192465404645440775027ea3ba3faacbf221e64736f6c63430008180033",
+  "deployedBytecode": "0x608060405260043610603c575f3560e01c8063342db7391460465780637e10e8d614607b5780639fa6a6e314607b578063d09de08a14608c575f80fd5b36604257005b5f80fd5b3480156050575f80fd5b5060696e1a185c991a185d0b595e1c1bdcd959608a1b81565b60405190815260200160405180910390f35b3480156085575f80fd5b505f546069565b3480156096575f80fd5b50609d609f565b005b5f80815460aa9060b0565b90915550565b5f6001820160cc57634e487b7160e01b5f52601160045260245ffd5b506001019056fea26469706673582212207425b0923ef27f6986af3fef4ca192465404645440775027ea3ba3faacbf221e64736f6c63430008180033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

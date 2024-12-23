@@ -1,0 +1,51 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "$ReentrancyGuard",
+  "sourceName": "contracts-exposed/utils/ReentrancyGuard.sol",
+  "abi": [
+    {
+      "inputs": [],
+      "stateMutability": "payable",
+      "type": "constructor"
+    },
+    {
+      "inputs": [],
+      "name": "ReentrancyGuardReentrantCall",
+      "type": "error"
+    },
+    {
+      "inputs": [],
+      "name": "$_reentrancyGuardEntered",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "ret0",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "__hh_exposed_bytecode_marker",
+      "outputs": [
+        {
+          "internalType": "bytes32",
+          "name": "",
+          "type": "bytes32"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "stateMutability": "payable",
+      "type": "receive"
+    }
+  ],
+  "bytecode": "0x608060405260015f5560bc806100145f395ff3fe6080604052600436106028575f3560e01c8063342db739146032578063d67f250a146068575f80fd5b36602e57005b5f80fd5b348015603c575f80fd5b5060556e1a185c991a185d0b595e1c1bdcd959608a1b81565b6040519081526020015b60405180910390f35b3480156072575f80fd5b505f5460405160029091148152602001605f56fea2646970667358221220d5656d57791f4e7740ece49a0ae30f35caa94e760bd944d7ff6c1f5b75710e0864736f6c63430008180033",
+  "deployedBytecode": "0x6080604052600436106028575f3560e01c8063342db739146032578063d67f250a146068575f80fd5b36602e57005b5f80fd5b348015603c575f80fd5b5060556e1a185c991a185d0b595e1c1bdcd959608a1b81565b6040519081526020015b60405180910390f35b3480156072575f80fd5b505f5460405160029091148152602001605f56fea2646970667358221220d5656d57791f4e7740ece49a0ae30f35caa94e760bd944d7ff6c1f5b75710e0864736f6c63430008180033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

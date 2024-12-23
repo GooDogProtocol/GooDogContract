@@ -1,0 +1,33 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "$BadBeaconNoImpl",
+  "sourceName": "contracts-exposed/mocks/proxy/BadBeacon.sol",
+  "abi": [
+    {
+      "inputs": [],
+      "stateMutability": "payable",
+      "type": "constructor"
+    },
+    {
+      "inputs": [],
+      "name": "__hh_exposed_bytecode_marker",
+      "outputs": [
+        {
+          "internalType": "bytes32",
+          "name": "",
+          "type": "bytes32"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "stateMutability": "payable",
+      "type": "receive"
+    }
+  ],
+  "bytecode": "0x6080604052609380600f5f395ff3fe608060405260043610601e575f3560e01c8063342db739146028575f80fd5b36602457005b5f80fd5b3480156032575f80fd5b50604b6e1a185c991a185d0b595e1c1bdcd959608a1b81565b60405190815260200160405180910390f3fea2646970667358221220421764e80bfc04510bc03d9b0727164aeac80ed464933269eb93e1f7a302f24b64736f6c63430008180033",
+  "deployedBytecode": "0x608060405260043610601e575f3560e01c8063342db739146028575f80fd5b36602457005b5f80fd5b3480156032575f80fd5b50604b6e1a185c991a185d0b595e1c1bdcd959608a1b81565b60405190815260200160405180910390f3fea2646970667358221220421764e80bfc04510bc03d9b0727164aeac80ed464933269eb93e1f7a302f24b64736f6c63430008180033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

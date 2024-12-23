@@ -1,0 +1,28 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "EtherReceiverMock",
+  "sourceName": "contracts/mocks/EtherReceiverMock.sol",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "bool",
+          "name": "acceptEther",
+          "type": "bool"
+        }
+      ],
+      "name": "setAcceptEther",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "stateMutability": "payable",
+      "type": "receive"
+    }
+  ],
+  "bytecode": "0x608060405234801561000f575f80fd5b5060b68061001c5f395ff3fe608060405260043610601e575f3560e01c80634fea120c146034575f80fd5b366030575f5460ff16602e575f80fd5b005b5f80fd5b348015603e575f80fd5b50602e604a366004605c565b5f805460ff1916911515919091179055565b5f60208284031215606b575f80fd5b813580151581146079575f80fd5b939250505056fea26469706673582212202b94d69ec5547f7b39a45abf88d4a4a21067ec767172b7f3901389fe97df4b3164736f6c63430008180033",
+  "deployedBytecode": "0x608060405260043610601e575f3560e01c80634fea120c146034575f80fd5b366030575f5460ff16602e575f80fd5b005b5f80fd5b348015603e575f80fd5b50602e604a366004605c565b5f805460ff1916911515919091179055565b5f60208284031215606b575f80fd5b813580151581146079575f80fd5b939250505056fea26469706673582212202b94d69ec5547f7b39a45abf88d4a4a21067ec767172b7f3901389fe97df4b3164736f6c63430008180033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}
