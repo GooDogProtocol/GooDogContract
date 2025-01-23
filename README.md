@@ -2,11 +2,10 @@
 
 > A fork of Uniswap v2/v3, optimized and customized for GooDog Protocol.
 > GDVestingWallet is implemented based on VestingWalletCliff from OpenZeppelin Contracts (v5.1)
-
-An open source interface for Uniswap -- a protocol for decentralized exchange of Ethereum tokens.
 - Whitepapers:
   - [V2](https://uniswap.org/whitepaper.pdf)
   - [V3](https://uniswap.org/whitepaper-v3.pdf)
+- [Uniswap v2/v3 licensing](https://support.uniswap.org/hc/en-us/articles/14569783029645-Uniswap-v3-licensing)
 
 ## Accessing the GooDog DEX V3
 
@@ -16,7 +15,7 @@ or visit [dex.goodog.io](https://dex.goodog.io).
 
 ## Contributions
 
-For steps on local deployment, development, and code contribution, please see [CONTRIBUTING](./CONTRIBUTING.md).
+For steps on development, and code contribution, please contact [@GooDog](https://debank.com/profile/0xbe18b2c63ae3964ac20bdd8d722ffd68f1629405) and [GooDog Official Account] (https://debank.com/official/118360) at DeBank
 
 ## Accessing GooDog DEX V2
 
