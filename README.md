@@ -9,13 +9,11 @@
 
 ## Accessing the GooDog DEX V3
 
-To access the DEX, use an IPFS gateway link from the
-[latest release](https://github.com/GooDogProtocol/GooDogDex/releases/latest),
-or visit [dex.goodog.io](https://dex.goodog.io).
+Visit [dex.goodog.io](https://dex.goodog.io).
 
 ## Contributions
 
-For steps on development, and code contribution, please contact [@GooDog](https://debank.com/profile/0xbe18b2c63ae3964ac20bdd8d722ffd68f1629405) and [GooDog Official Account] (https://debank.com/official/118360) at DeBank
+For steps on development, and code contribution, please contact [@GooDog](https://debank.com/profile/0xbe18b2c63ae3964ac20bdd8d722ffd68f1629405) and [GooDog Official Account](https://debank.com/official/118360) at DeBank
 
 ## Accessing GooDog DEX V2
 
